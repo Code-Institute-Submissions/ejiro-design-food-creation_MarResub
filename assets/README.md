@@ -17,3 +17,7 @@ The home page features navigation links that can help the user move around the w
 * Gallery
 * Contact
 
+## About
+![Food Creation] (https://assets/images/home.png)
+
+A short description of text about the competition is displayed on the ABOUT US column on the Home Page, it explains the relevant and benefit of the competition so that the user can learn the details of the competition. 
