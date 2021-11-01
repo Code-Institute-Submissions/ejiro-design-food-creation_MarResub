@@ -10,7 +10,7 @@ The Food Creation website features links for users to be able to navigate around
 ### Home
 ![Food Creation] (https://assets/images/home.png)
 
-The home page features navigation links that can help the user move around the website, list of the navigation is stated below
+The home page features navigation links that can help the user move around the website, list of the navigation is stated below. it also display a navigation quick link to take users to where they can register for the competition and to social media page.
 
 * Home
 * About
