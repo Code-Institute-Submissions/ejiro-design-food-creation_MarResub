@@ -44,4 +44,7 @@ https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0
 * It also include links to social media and you user can navigate back to other pages within the website.
 * The registration include the user full names, emaill adress and description of the submited food.
 
+# Testing
+* browser preview was not coming up
+* site could be tested for about 2hours
 
