@@ -4,7 +4,7 @@
 * This competition site is for every age group both young and old, as long as you are have talent in cooking, 
 * Its message is targeted at people of all race, color and age.
 
-![FoodCreation] (https://assets/images/foodcreation_wireframe.jpg)
+![media-view] (https://github.com/ejiro-design/food-creation/blob/ad6c4dedcf4ec7f86519abb2c1ed222a9ec666be/assets/images/wireframe.png)
 
 ## Features 
 * The Food Creation website features links for users to be able to navigate around, HOME, GALLERY AND SIGNUP FORM PAGE
