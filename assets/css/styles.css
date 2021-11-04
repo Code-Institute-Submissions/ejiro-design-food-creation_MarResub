@@ -117,3 +117,33 @@ div #main-title{
     color:#c3f7c6
 }
 
+#about{
+    background-color:#656119;
+    background-color: rgba(102, 92, 1, 0.349);
+    width: 240px;
+    height:130px;
+    float:right;
+    padding: 20px;
+    margin: left 10px; 
+    position:absolute;
+    right: 50px;
+    bottom:50px;
+}
+
+#about h1{
+    color:white;
+    font-weight:bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Source Code Pro, Poppins;
+    position:relative;
+    line-height: 30px;
+   
+}
+
+#about p{
+    color:white;
+    font-size: 10px;
+    font-family: Poppins, Source Code Pro;
+    text-align: left;
+}
