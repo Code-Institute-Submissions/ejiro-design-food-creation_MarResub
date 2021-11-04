@@ -104,6 +104,16 @@ div #main-title{
     padding-top:1%;
     position:absolute;
     top:200px;
-    left:400px;
-    
+    left:400px;  
+    font-weight: bold;
 } 
+
+#enter-button, a{
+    text-decoration:none;
+    color:white;
+}
+
+#enter-button, a:hover{
+    color:#c3f7c6
+}
+
