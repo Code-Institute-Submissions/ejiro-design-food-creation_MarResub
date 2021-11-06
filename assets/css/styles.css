@@ -95,7 +95,7 @@ div #main-title{
 }
 
 #enter-button{
-    background-color: black;
+    background-color:#181d22;
     text-align: center;
     color: white;
     height: 40px;
@@ -146,4 +146,30 @@ div #main-title{
     font-size: 10px;
     font-family: Poppins, Source Code Pro;
     text-align: left;
+}
+
+footer{
+    height:50px;
+
+}
+
+#social-media{
+    position: absolute;
+    bottom: 50px;
+    
+    
+}
+
+#social-media > li{
+    display: inline;
+    
+}
+
+#social-media i{
+    font-size: 200%;
+    color:#767c6b;
+    padding:3px;
+    margin:20px;
+    text-align: center;
+
 }
