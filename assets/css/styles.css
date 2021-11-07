@@ -166,7 +166,7 @@ footer{
 }
 
 #social-media i{
-    font-size: 200%;
+    font-size: 100%;
     color:#767c6b;
     padding:3px;
     margin:20px;
@@ -174,9 +174,20 @@ footer{
 
 }
 
-#food-samples{
-    
+#gallery-photos{
+    clear:both;
+    line-height: 0;
+    column-count: 4;
 	padding: 10px 0;
 	text-align:center;
 	margin:0 auto;
+    column-gap: 0;
+}
+
+#gallery-photos img{
+    border-radius: 10px;
+    height: auto;
+    width: 320px;
+  
+
 }
