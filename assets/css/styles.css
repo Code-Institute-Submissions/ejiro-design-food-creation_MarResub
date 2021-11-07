@@ -177,17 +177,21 @@ footer{
 #gallery-photos{
     clear:both;
     line-height: 0;
-    column-count: 6;
+    column-count: 5;
+    column-gap: 0px;
 	padding: 10px 0;
 	text-align:center;
 	margin:0 auto;
-    column-gap: 0;
+    column-gap: 0px;
+    display: block;
+
 }
 
 #gallery-photos img{
     border-radius: 10px;
     height: 250px;
     width: 210px;
+    float:left
   
 
 }
