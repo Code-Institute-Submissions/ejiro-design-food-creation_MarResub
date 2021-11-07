@@ -187,11 +187,16 @@ footer{
 
 }
 
-#gallery-photos img{
+#gallery-photos > img{
     border-radius: 10px;
-    height: 250px;
-    width: 210px;
-    float:left
+    height: 150;
+    width: 220px;
+    float:inline-end;
   
 
+}
+
+#gallery-photos > figcaption{
+    font-size: 8;
+    font-weight: bold;
 }
