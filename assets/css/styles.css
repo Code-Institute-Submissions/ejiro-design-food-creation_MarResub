@@ -147,10 +147,6 @@ div #main-title{
     text-align: left;
 }
 
-hr{
-    border:1px solid #312d2d;
-}
-
 footer{
     height: 800px;
 }
@@ -185,7 +181,7 @@ section{
     height: 20px;
 }
 
-#g-title h1{
+#g-title > h1{
     font-size: 20px;
     clear:both;
     text-align: center;
@@ -196,7 +192,7 @@ section{
 }
 
 #g-title > h2{
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     font-weight: bold;
 
@@ -225,13 +221,15 @@ section{
 
 }
 
-section #photo-gallery > figcaption{
-    font-size: 7;
-    font-weight: bold;
+figure{
+    
+}
+
+figcaption{
+    font-size: 14px;
+    font-weight:800;
     text-align: center;
     font-family: Source Code Pro, Poppins;
     color:#312d2d;
-    float: inline-end;
     
-    padding: block start 2px;
 }
