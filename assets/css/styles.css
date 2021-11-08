@@ -174,29 +174,43 @@ footer{
 
 }
 
-#gallery-photos{
+#g-title {
+    font-size: 20px;
+    clear:both;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#312d2d
+
+}
+
+#photo-gallery{
     clear:both;
     line-height: 0;
     column-count: 5;
-    column-gap: 0px;
-	padding: 10px 0;
 	text-align:center;
-	margin:0 auto;
-    column-gap: 0px;
-    display: block;
-
-}
-
-#gallery-photos > img{
+    column-gap:2px;
+    display:inline-block;
     border-radius: 10px;
-    height: 150;
+    /* float:inline-end; */
+}
+
+#photo-gallery img{
+
+    height: 280px;
     width: 220px;
-    float:inline-end;
-  
+    padding-bottom: 10px;
+    padding-top: 12px;
+    margin-right: 50%;
+    margin-left: 50%;
 
 }
 
-#gallery-photos > figcaption{
+#photo-gallery > figcaption{
     font-size: 8;
     font-weight: bold;
+    text-align: center;
+    font-family: Source Code Pro, Poppins;
+    color:#312d2d;
+    float: inline-end;
 }
