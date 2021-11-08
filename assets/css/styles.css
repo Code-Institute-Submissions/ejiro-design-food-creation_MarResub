@@ -151,6 +151,10 @@ hr{
     border:1px solid #312d2d;
 }
 
+footer{
+    height: 800px;
+}
+
 #social-media{
     position: fixed;
     bottom:0;
@@ -175,6 +179,10 @@ hr{
     margin:20px;
     text-align: center;
 
+}
+
+section{
+    height: 20px;
 }
 
 #g-title h1{
