@@ -21,6 +21,7 @@ h1{
 #logo{
     float:left;
     font-size: 200%;
+    font-weight: 900;
     line-height: 75px;
     margin-left: 60px;
     color: #000000;
@@ -222,7 +223,7 @@ section{
 }
 
 figure{
-    
+
 }
 
 figcaption{
