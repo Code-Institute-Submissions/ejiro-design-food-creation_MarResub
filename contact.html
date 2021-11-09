@@ -31,59 +31,69 @@
         </nav>
     </header>
 
-<section>
-    <div id="judges">
-        <h1>Meet Our judges</h1>
-        <img src="assets/images/judge.jpeg" alt="Mrs Tina Williams">
-        <img src="assets/images/judge1.jpeg" alt="Ms Ada Alade">
-        <img src="assets/images/judge2.jpeg" alt="Ian Philip">
-        <img src="assets/images/judge3.jpeg" alt="Christian London">
-    </div>
-    <div id="c-form">
-        <h1>Submit Your Entry Here</h1>
-        <form method="post" action="#">  
-            <label for="username" class="username">Name</label>
-            <input name="fullname" type="text" id="username" placeholder="Full Name" required>
+    <section>
+        <div id="judges">
+            <h1>Meet Our judges</h1>
+            <img src="assets/images/judge.jpeg" alt="Mrs Tina Williams">
+            <img src="assets/images/judge1.jpeg" alt="Ms Ada Alade">
+            <img src="assets/images/judge2.jpeg" alt="Ian Philip">
+            <img src="assets/images/judge3.jpeg" alt="Christian London">
+        </div>
+        <div id="c-form">
+            <h1>Submit Your Entry Here</h1>
+            <form method="post" action="#">
+                <ul>
+                    <li>
+                        <label for="username" class="username">Name</label>
+                        <input name="fullname" type="text" id="username" placeholder="Full Name" required>
+                        </li>
 
-            <label for="email" class="email">Email Address</label>
-            <input name="email" type="text" id="email" placeholder="Email" required>
-           
-            <label for="description" class="description">Description</label>
-            <input name="description" type="text" id="description" required>
+                        <li>
+                        <label for="email" class="email">Email Address</label>
+                        <input name="email" type="text" id="email" placeholder="Email" required>
+                    </li>
 
-            <label for="terms-checkbox" class="checkbox">I have read and agree with the terms & conditions</label>
-            <input name="checkbox" type="text" id="checkbox" required>
-            
+                    <li>
+                        <label for="description">Description</label>
+                        <textarea id="description" name="description"></textarea>
+                        
+                    </li>
 
-        </form>
+                    <li class="radio-button">
+                        <label for="radio" >I have read and agree with the terms & conditions</label>
+                        <input type="radio" required>
+                    </li>
+                </ul>
 
-    </div>
-</section>
+            </form>
+
+        </div>
+    </section>
 
 
     <script src="https://kit.fontawesome.com/e0d766203c.js" crossorigin="anonymous"></script>
-    
-    <footer> 
+
+    <footer>
         <ul id="social-media">
             <li>
-            <a href="https://twitter.com/" target="_blank" rel="noopener" 
-            aria-label="Find us on twitter"><i class="fab fa-twitter"></i>
-            </a>
-        </li>
+                <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Find us on twitter"><i
+                        class="fab fa-twitter"></i>
+                </a>
+            </li>
 
-        <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener" 
-            aria-label="Find us on instagram"><i class="fab fa-instagram-square"></i>
-            </a>
-        </li>
-       
-        <li>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener" 
-            aria-label="Find us on Facebook"><i class="fab fa-facebook-square"></i>
-            </a>
-        </li>
-        
-    </ul>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Find us on instagram"><i
+                        class="fab fa-instagram-square"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Find us on Facebook"><i
+                        class="fab fa-facebook-square"></i>
+                </a>
+            </li>
+
+        </ul>
     </footer>
 
 </body>
