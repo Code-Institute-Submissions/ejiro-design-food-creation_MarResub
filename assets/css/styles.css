@@ -318,9 +318,13 @@ section{
     box-sizing: border-box;
 }
 
-li #radio-button{
-    display: block;
-    padding:20px 20px 0 0;
+#radio-button #terms > label{
+    font: 10px;
+}
+
+#radio-button #terms{
+    width: 12px;
+    height: 12px;
     font: 10px;
 }
 
