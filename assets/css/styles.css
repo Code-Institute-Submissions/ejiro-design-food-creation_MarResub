@@ -276,41 +276,68 @@ section{
     float: right;
     margin:0;
     padding:20px 0 20px 20px;
+
 }
 
 
 #c-form h1{
     text-align: center;
-    padding:20px 30px 40px 0;
+    padding:5px 30px 40px 0;
     font-size: 15px;
     font-weight:900;
     color:#312d2d;
-    margin-top:5px;
+    margin-top:3px;
 }
 
 
 #c-form ul{
-    padding:20px 20px 0 0;
+    padding:0px 5px 0 0;
     
 }
  
 #c-form li{
     list-style: none;
     padding:20px 20px 0 0;
+    font-size: 14px;
     
 }
 
 #c-form input{
     border: 1px solid #c9d3dd;
     padding:20px 20px 0 0;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: inherit;
     
 }
 
 #c-form textarea{
     border: 1px solid #c9d3dd;
     padding:20px 20px 0 0;
+    box-sizing: border-box;
 }
 
 li #radio-button{
+    display: block;
     padding:20px 20px 0 0;
+    font: 10px;
+}
+
+
+#c-form label{
+    display:block;
+    height:10px;
+    text-align: left;
+}
+
+ .submit-b button{
+     border-radius: 5px;
+    padding:5px;
+    width: 180px;
+    height: 40px;
+    background-color:#767c6b
+    color:#c9d3dd;
+    font-size: inherit;
+    font-family: inherit;
 }
