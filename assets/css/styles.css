@@ -314,11 +314,11 @@ section {
     box-sizing: border-box;
 }
 
-#radio-button #terms>label {
+.radio-button #terms>label {
     font: 10px;
 }
 
-#radio-button #terms {
+.radio-button #terms {
     width: 12px;
     height: 12px;
     font: 10px;
