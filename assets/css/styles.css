@@ -367,6 +367,24 @@ section {
 }
 /* media queries */
 @media screen and (max-width: 724px) {
-     
-
+#dish-photo{
+    background-size: cover;
+    width:100%;
+    height:auto;
+}
+div #main-title{
+   display: block;
+   position:absolute;
+   top:10%;
+   right:20%;
+   bottom:0%;
+   left:0%;
+}
+#enter-button{
+    position:absolute;
+    top:25%;
+    right:40%;
+    bottom:0%;
+    left:0%;
+}
 }
