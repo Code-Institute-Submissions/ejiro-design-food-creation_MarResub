@@ -366,7 +366,7 @@ section {
 
 }
 /* media queries */
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 778px) {
 #dish-photo{
     background-size: cover;
     width:100%;
