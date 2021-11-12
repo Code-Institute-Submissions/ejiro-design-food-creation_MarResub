@@ -360,40 +360,44 @@ section {
 }
 /* add media queries for sceeen Iphone x */
 @media screen and (max-width: 375px) {
-    #logo {
-        text-align: center;
-    }
-    #menu {
-        display: inline-block;
-        line-height: 0;
-        margin-right:20px;
-    }
-
-    #menu li{
-        float:right;
-    }
-    #dish-photo{
-        background-size: cover;
-        height:auto;
-        width:812px;
-        overflow: hidden;
-        position:relative;
-        transform: rotate(90deg) ;
-    }
-    #trans{
+#logo {
+    text-align: center;
+    font-size: 25px;
+    margin-left:50px;
+    float:left;
+    line-height: -90px;
+}
+#menu {
+    display: inline-block;
+    line-height: 0;
+    
+    margin-right:10px;
+}
+#menu li{
+    float:right;
+}
+#dish-photo{
+    background-size: cover;
+    height:auto;
+    width:370px;
+    position:absolute;
+}
+#trans{
+    position:relative;
     height:375px;
     width:812px;
 }
 div #main-title{
     position:absolute;
     left:30px;
-    top:180px;
+    top:10px;
     margin:20px 0 0 0;
 }
 #main-title, #main-title h1{
     text-align: center;
-    font-size:50px;
+    font-size:30px;
     padding: 0 auto;
+    top:50px;
 }
 #main-title, #main-title h2{
     font-size: 20px;
@@ -403,36 +407,46 @@ div #main-title{
 #enter-button{
     margin:0 auto;
     position:absolute;
-    top:320px;
-    left:130px;
+    top:110px;
+    left:100px;
     height:30px;
+}
+#about{
+    width: 140px;
+    height: 80px;
+    float: left;
+    padding: 20px;
+    margin-left:90px;
+    right: 50px;
+    bottom: -300px;
+    position:absolute;
 }
 #about h1{
     color:#312d2d;
-    font-size: 14px;
+    font-size: 10px;
 }
 #about p{
     color:#312d2d;
 }
 footer{
-    position:absolute;
+    position:relative;
     left:0px;
     top: 800px;
     height:100px;
     width:375px;
-    clear:left;
-    line-height: 10px;
+    clear:right;
+    line-height: 40px;
     display:block;
     padding:10px 0 10px 0;
 }
 #social-media>li{
     display:inline-block;
     width:50px;
-    height:30px;
+    height:60px;
     
 }
 #social-media i{
-    clear:left;
-    float:left;
+    clear:right;
+    float:right;
 }
 }
