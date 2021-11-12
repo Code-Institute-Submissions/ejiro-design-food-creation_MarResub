@@ -340,14 +340,93 @@ section {
     font-size: inherit;
     font-family: inherit;
 }
+.success{
+    box-sizing: border-box;
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+    margin:0 auto;
+}
+.success h1{
+    font-size: 30px;
+    text-align: center;
+}
+.success p{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
 
-@media screen and (max-width: 768px) {
+}
+/* add media queries for sceeen Iphone x */
+@media screen and (max-width: 375px) {
     #logo {
         text-align: center;
     }
-
     #menu {
-        postion:
+        display: inline-block;
+        line-height: 0;
+        margin-right:20px;
     }
 
+    #menu li{
+        float:right;
+    }
+    #dish-photo{
+        background-size: cover;
+        height:auto;
+        width:812px;
+    }
+    #trans{
+    height:375px;
+    width:812px;
+}
+div #main-title{
+    position:absolute;
+    left:30px;
+    top:180px;
+    margin:20px 0 0 0;
+}
+#main-title, #main-title h1{
+    text-align: center;
+    font-size:50px;
+    padding: 0 auto;
+}
+#main-title, #main-title h2{
+    font-size: 20px;
+    margin:0 auto;
+    line-height:200%;
+}
+#enter-button{
+    margin:0 auto;
+    position:absolute;
+    top:320px;
+    left:130px;
+    height:30px;
+}
+#about h1{
+    color:#312d2d;
+    font-size: 14px;
+}
+#about p{
+    color:#312d2d;
+}
+footer{
+    position:absolute;
+    left:0px;
+    top: 800px;
+    height:100px;
+    width:375px;
+    clear:left;
+    line-height: 10px;
+}
+#social-media>li{
+    display:inline-block;
+    width:50px;
+    height:30px;
+    
+}
+#social-media i{
+    clear:left;
+    float:left;
+}
 }
