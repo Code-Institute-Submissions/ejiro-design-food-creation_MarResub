@@ -71,6 +71,7 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
+    position:relative;
 }
 
 /* add style to the title  */
@@ -133,10 +134,10 @@ a:hover {
     height: 130px;
     float: right;
     padding: 20px;
-    margin: left 10px;
-    position: absolute;
+    margin-right:30px;
+    position: relative;
     right: 50px;
-    bottom: 50px;
+    bottom: -300px;
 }
 
 #about h1 {
@@ -145,7 +146,7 @@ a:hover {
     font-size: 16px;
     text-transform: uppercase;
     font-family: Source Code Pro, Poppins;
-    position: relative;
+    position: abosolute;
     line-height: 30px;
 
 }
@@ -375,6 +376,9 @@ section {
         background-size: cover;
         height:auto;
         width:812px;
+        overflow: hidden;
+        position:relative;
+        transform: rotate(90deg) ;
     }
     #trans{
     height:375px;
@@ -418,6 +422,8 @@ footer{
     width:375px;
     clear:left;
     line-height: 10px;
+    display:block;
+    padding:10px 0 10px 0;
 }
 #social-media>li{
     display:inline-block;
