@@ -511,4 +511,34 @@ footer {
     margin:0 25px 0 0;
     text-align: center;
 }
+#photo-gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    text-align: center;
+    column-gap: 1px;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#photo-gallery img {
+    height: 150px;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    margin-right: 3%;
+    margin-left: 14%;
+    float: inline-end;
+    text-align: right;
+}
+#photo-gallery figcaption {
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Source Code Pro, Poppins;
+    color: #312d2d;
+    padding: 2px;
+    caption-side: bottom;
+}
 }
