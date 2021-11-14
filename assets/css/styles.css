@@ -365,26 +365,150 @@ section {
     text-transform: uppercase;
 
 }
-/* media queries */
-@media screen and (max-width: 778px) {
+/* media queries */ 
+/* iPhone 4 and 4S */
+@media only screen and (max-width: 480px) and (min-width: 320px) {
 #dish-photo{
     background-size: cover;
-    width:100%;
+    width:320px;
     height:auto;
 }
+
+h1 {
+    font: Source Code Pro, Poppins;
+    letter-spacing: normal;
+    color: #000000;
+    font-weight: lighter;
+}
+
+#logo {
+    float: left;
+    font-size: 140%;
+    line-height: 70px;
+    margin-left: 40px;
+    color: #000000;
+}
+
+#menu {
+    position: absolute;
+    top:50px;
+    bottom: auto;
+    left:0;
+    right:0;
+    line-height: 20%;
+    font-size: 70%;
+    color: #181d22;
+    margin-right: 42%;
+}
+
+#menu li {
+    display: block;
+    float: right;
+    list-style-type: none;
+    margin: 5px;
+}
 div #main-title{
-   display: block;
    position:absolute;
-   top:10%;
-   right:20%;
-   bottom:0%;
-   left:0%;
+   top:30px;
+   left:0px;
+   margin-left: 20px;
+}
+#main-title,
+#main-title h1 {
+    font-size: 25px;
+    color: white;
+    font-family: Poppins, Source Code Pro;
+    float:left;
+    margin: 5px;
+    padding:0px 0 0 2px;
+}
+#main-title,
+#main-title h2 {
+    position: relative;
+    top: -30%;
+    left:0%;
+    right:40%;
+    font-size: 15px;
+    color: white;
+    font-family: inherit;
+    margin:2px;
+    padding:0px 0 0 2px;
+    line-height: 18px;
+
 }
 #enter-button{
     position:absolute;
-    top:25%;
-    right:40%;
+    top:18%;
+    right:35%;
     bottom:0%;
     left:0%;
+    height:25px;
+    width:85px;
+}
+#enter-button,
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+#about {
+    background-color: rgba(102, 92, 1, 0.349);
+    width: 140px;
+    height: 200px;
+    padding: 10px;
+    margin-right:0px;
+    position: absolute;
+    right:0px;
+    top:30%;
+    left: 20px;
+    bottom: -300px;
+}
+
+#about h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Source Code Pro, Poppins;
+    position: abosolute;
+    line-height: 30px;
+
+}
+
+#about p {
+    color: white;
+    font-size: 10px;
+    font-family: Poppins, Source Code Pro;
+    text-align: left;
+}
+
+footer {
+    height: 800px;
+}
+
+#social-media {
+    position: fixed;
+    line-height: 10%;
+    bottom: 0;
+    top: 90%;
+    left: 0%;
+    right: 25%;
+    background-color: white;
+    text-align: center;
+}
+
+#social-media>li {
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+}
+
+#social-media i {
+    font-size: 100%;
+    color: #767c6b;
+    padding: 10px;
+    margin:0 25px 0 0;
+    text-align: center;
 }
 }
