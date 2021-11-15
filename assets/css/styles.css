@@ -367,13 +367,19 @@ section {
 }
 /* media queries */ 
 /* iPhone 4 and 4S */
-@media only screen and (max-width: 480px) and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
 #dish-photo{
     background-size: cover;
     width:320px;
     height:auto;
 }
-
+#logo {
+    float: left;
+    font-size: 140%;
+    line-height: 70px;
+    margin-left: 90px;
+    color: #000000;
+}
 h1 {
     font: Source Code Pro, Poppins;
     letter-spacing: normal;
@@ -381,13 +387,6 @@ h1 {
     font-weight: lighter;
 }
 
-#logo {
-    float: left;
-    font-size: 140%;
-    line-height: 70px;
-    margin-left: 40px;
-    color: #000000;
-}
 
 #menu {
     position: absolute;
@@ -483,17 +482,28 @@ a {
     text-align: left;
 }
 
+#gallery{
+    height: 950px;
+    width: 12.98%;
+    color:#767c6b
+}
+
 footer {
-    height: 800px;
+    height: 200px;
+    width:489px;
+    overflow: hidden;
+    clear:both;
 }
 
 #social-media {
+    display: inline-block;
     position: fixed;
-    line-height: 10%;
-    bottom: 0;
+    line-height:normal;
+    bottom: -20%;
     top: 90%;
     left: 0%;
     right: 25%;
+    padding:0px 15px 0 0;
     background-color: white;
     text-align: center;
 }
