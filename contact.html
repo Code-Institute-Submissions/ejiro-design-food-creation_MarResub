@@ -29,7 +29,7 @@
         </nav>
     </header>
 
-    <section>
+    <section id="contact">
         <div id="judges">
             <h1>Meet Our judges</h1>
             <img src="assets/images/judge.jpeg" alt="Mrs Tina Williams">
@@ -39,34 +39,36 @@
         </div>
         <div id="c-form">
             <h1>Submit Your Entry Here</h1>
-            <form action="success.html" method="get">
-                <ul>
-                    <li>
-                        <label for="username" class="username">Name</label>
-                        <input name="fullname" type="text" id="username" placeholder="Full Name" required>
-                    </li>
+            <div id="form">
+                <form action="success.html" method="get">
+                    <ul>
+                        <li>
+                            <label for="username" class="username">Name</label>
+                            <input name="fullname" type="text" id="username" placeholder="Full Name" required>
+                        </li>
 
-                    <li>
-                        <label for="email" class="email">Email Address</label>
-                        <input name="email" type="text" id="email" placeholder="Email" required>
-                    </li>
+                        <li>
+                            <label for="email" class="email">Email Address</label>
+                            <input name="email" type="text" id="email" placeholder="Email" required>
+                        </li>
 
-                    <li>
-                        <label for="description">Description</label>
-                        <textarea id="description" name="description"></textarea>
-                    </li>
+                        <li>
+                            <label for="description">Description</label>
+                            <textarea id="description" name="description"></textarea>
+                        </li>
 
-                    <li class="radio-button">
-                        <label><input type="checkbox" id="terms" required> I have read and agree with the terms &
-                            conditions</label>
-                    </li>
+                        <li class="radio-button">
+                            <label><input type="checkbox" class="terms" required> I have read and agree with the terms &
+                                conditions</label>
+                        </li>
 
-                    <li class="submit-b">
-                        <button type="submit" value="submit">Enter</button>
-                    </li>
-                </ul>
+                        <li class="submit-b">
+                            <button type="submit" value="submit">Enter</button>
+                        </li>
+                    </ul>
 
-            </form>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -92,4 +94,5 @@
 
 </body>
 <script src="https://kit.fontawesome.com/e0d766203c.js" crossorigin="anonymous"></script>
+
 </html>
