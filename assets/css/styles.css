@@ -386,40 +386,38 @@ h1 {
     color: #000000;
     font-weight: lighter;
 }
-
-
 #menu {
     position: absolute;
     top:50px;
     bottom: auto;
-    left:0;
-    right:0;
-    line-height: 20%;
+    left:5%;
+    right:5%;
+    line-height: 50%;
     font-size: 70%;
     color: #181d22;
-    margin-right: 42%;
+    margin-right: 24%;
 }
-
 #menu li {
-    display: block;
-    float: right;
+    display: inline-block;
     list-style-type: none;
-    margin: 5px;
+    margin: 5px 0 10px 5px;
 }
 div #main-title{
-   position:absolute;
-   top:30px;
-   left:0px;
-   margin-left: 20px;
+    position:absolute;
+    top:10%; 
+    left:0;
+    right:10%;
+    height:auto;
+    width:100%;
 }
 #main-title,
 #main-title h1 {
+    display:block;
     font-size: 25px;
     color: white;
     font-family: Poppins, Source Code Pro;
-    float:left;
-    margin: 5px;
-    padding:0px 0 0 2px;
+    margin:0 0 0 15px;
+    padding:0;
 }
 #main-title,
 #main-title h2 {
@@ -430,15 +428,15 @@ div #main-title{
     font-size: 15px;
     color: white;
     font-family: inherit;
-    margin:2px;
-    padding:0px 0 0 2px;
+    margin:0 0 0 15px;
+    padding:0 0 0 0px;
     line-height: 18px;
 
 }
 #enter-button{
     position:absolute;
-    top:18%;
-    right:35%;
+    top:16%;
+    right:15%;
     bottom:0%;
     left:0%;
     height:25px;
@@ -481,20 +479,12 @@ a {
     font-family: Poppins, Source Code Pro;
     text-align: left;
 }
-
-#gallery{
-    height: 950px;
-    width: 12.98%;
-    color:#767c6b
-}
-
 footer {
     height: 200px;
     width:489px;
     overflow: hidden;
     clear:both;
 }
-
 #social-media {
     display: inline-block;
     position: fixed;
@@ -521,25 +511,44 @@ footer {
     margin:0 25px 0 0;
     text-align: center;
 }
+/* gallery section */
+#gallery{
+    height: 950px;
+    width: 100%;
+    color:#767c6b
+}
 #photo-gallery {
     clear: both;
     line-height: 0;
-    column-count: 2;
+    column-count:2;
     text-align: center;
-    column-gap: 1px;
+    column-gap: 0px;
     display: inline-block;
     border-radius: 10px;
     position: absolute;
 }
+div #g-title{
+    position:absolute;
+    top:60%;
+    left:0;
+    right:0;
+    bottom:5%;
+}
+#g-title h1{
+    font-size:14px;
+}
+
+#g-title h2{
+    font-size:10px;
+}
 
 #photo-gallery img {
-    height: 150px;
-    width: auto;
+    width: 100%;
     padding-bottom: 10px;
     padding-top: 12px;
-    margin-right: 3%;
-    margin-left: 14%;
-    float: inline-end;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: none;
     text-align: right;
 }
 #photo-gallery figcaption {
@@ -551,4 +560,6 @@ footer {
     padding: 2px;
     caption-side: bottom;
 }
+/* contact */
+
 }
