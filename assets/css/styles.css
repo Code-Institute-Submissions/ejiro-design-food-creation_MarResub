@@ -48,7 +48,7 @@ h1 {
 .active {
     border-left: 1px solid #312d2d;
 }
-#trans {
+.trans {
     background-color: rgb(14, 13, 13, 0.6);
     height: 670px;
     width: 1335px;
@@ -58,7 +58,7 @@ h1 {
     height: 670px;
     width: 100%;
 }
-#dish-photo {
+.dish-photo {
     height: 670px;
     width: 100%;
     background: url('../images/salmon.png') center center transparent;
@@ -66,21 +66,21 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
 }
-div #main-title {
+div .main-title {
     position: absolute;
     left: 300px;
     top: 100px;
 }
-#main-title,
-#main-title h1 {
+.main-title,
+.main-title h1 {
     font-size: 72px;
     color: white;
     font-family: Poppins, Source Code Pro;
     text-align: center;
     padding: 0 auto;
 }
-#main-title,
-#main-title h2 {
+.main-title,
+.main-title h2 {
     font-size: 30px;
     color: white;
     font-family: inherit;
@@ -88,7 +88,7 @@ div #main-title {
     margin: 0 auto;
     line-height: 50px;
 }
-#enter-button {
+.enter-button {
     background-color: #181d22;
     text-align: center;
     color: white;
@@ -101,16 +101,16 @@ div #main-title {
     left: 400px;
     font-weight: bold;
 }
-#enter-button,
+.enter-button,
 a {
     text-decoration: none;
     color: white;
 }
-#enter-button,
+.enter-button,
 a:hover {
     color: #c3f7c6
 }
-#about {
+.about {
     background-color: rgba(102, 92, 1, 0.349);
     position: absolute;
     top:60%;
@@ -124,7 +124,7 @@ a:hover {
     padding-top: 10px;
     margin-right:30px;
 }
-#about h1 {
+.about h1 {
     color: white;
     font-weight: bold;
     font-size: 16px;
@@ -134,7 +134,7 @@ a:hover {
     line-height: 30px;
 }
 
-#about p {
+.about p {
     color: white;
     font-size: 10px;
     font-family: Poppins, Source Code Pro;
@@ -143,7 +143,7 @@ a:hover {
 footer {
     height: 800px;
 }
-#social-media {
+.social-media {
     position: fixed;
     bottom: 0;
     top: 90%;
@@ -152,12 +152,12 @@ footer {
     background-color: white;
     text-align: center;
 }
-#social-media>li {
+.social-media>li {
     display: inline-block;
     width: 70px;
     height: 3px;
 }
-#social-media i {
+.social-media i {
     font-size: 100%;
     color: #767c6b;
     padding: 3px;
@@ -330,4 +330,4 @@ footer {
 /* media queries  */
 /* SmartPhones */
  @media (min-width: 360px) and (max-width: 374px) { 
- 
+ }
