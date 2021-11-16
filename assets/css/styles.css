@@ -53,14 +53,18 @@ h1 {
     height: 670px;
     width: 1335px;
 }
+#dish{
+    overflow: hidden;
+    height: 670px;
+    width: 100%;
+}
 #dish-photo {
     height: 670px;
-    width: 1335px;
+    width: 100%;
     background: url('../images/salmon.png') center center transparent;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    overflow: hidden;
     position:relative;
 }
 div #main-title {
@@ -567,10 +571,7 @@ div #g-title{
 /* media queries */ 
 /* ipad */
 @media only screen and (max-width: 1024px) {
-    /* body{
-        overflow-x:hidden;
-        overflow-y: scroll;
-    } */
+  
 #dish-photo{
     background-size: cover;
     width:55%;
