@@ -123,8 +123,6 @@ a:hover {
     padding-left: 10px;
     padding-top: 10px;
     margin-right:30px;
-    
-    
 }
 #about h1 {
     color: white;
@@ -334,12 +332,12 @@ footer {
 @media only screen and (max-width:320px) {
 
 #dish{
-    width:320px;
+    width:130%;
     height:auto;
 }
 #dish-photo{
     background-size: cover;
-    width:320px;
+    width:130%;
     height:auto;
 }
 #logo {
@@ -607,4 +605,4 @@ a #logo{
     height: 1024px;
     width: 100%;
 }
-} */ */
+} */ 
