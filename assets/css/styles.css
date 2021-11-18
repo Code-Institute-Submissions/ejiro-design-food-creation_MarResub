@@ -430,4 +430,13 @@ div .main-title{
     font-size:10px;
     text-align: center;
 }
+#gallery{
+    width:40%;
+    height: 40%;
+    
+}
+#photo-gallery{
+    column-count:2;
+    overflow: hidden;
+}
  }
