@@ -430,13 +430,48 @@ div .main-title{
     font-size:10px;
     text-align: center;
 }
-#gallery{
-    width:40%;
-    height: 40%;
-    
+/* gallery */
+
+#g-title{
+    position: absolute;
+    left:10%;
+    top:18%;
+    width:fit-content;
+}
+#g-title h1{
+    font-size: 12px;
 }
 #photo-gallery{
+    position: absolute;
+    top:25%;
+    bottom:-100%;
+    width:85%;
+    height: auto;
     column-count:2;
+    column-gap: 0;
     overflow: hidden;
+}
+#photo-gallery img{
+    width:80%;
+    height:auto;
+}
+#photo-gallery figcaption{
+    font-size: 10px;
+    line-height: 10px;
+}
+/* contact page */
+#judges{
+    position:absolute;
+    left:7%;
+    width:270px;
+}
+#c-form{
+    position:absolute;
+    top:90%;
+    right:8%;
+    width:250px;
+}
+#contact{
+    height:auto;
 }
  }
