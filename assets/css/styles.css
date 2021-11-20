@@ -285,7 +285,7 @@ footer {
     padding: 20px 20px 0 0;
     box-sizing: border-box;
 }
-.radio-button #terms>label {
+.radio-button .terms>label {
     font: 10px;
 }
 .radio-button .terms {
@@ -464,14 +464,39 @@ div .main-title{
     position:absolute;
     left:7%;
     width:270px;
+    height: fit-content;
+}
+#judges >h1{
+    text-align: left;
+    margin-left: 5px;
+    font-size:12px;
+    color:darkmagenta;
+}
+#judges img{
+    width:97%;
+    column-gap:0;
+    column-count:3;
+    padding:5px 0 0 0;
+
 }
 #c-form{
     position:absolute;
-    top:90%;
+    top:70%;
     right:8%;
     width:250px;
 }
-#contact{
-    height:auto;
+#form{
+    position: absolute;
+    top:10%;
+}
+.radio-button{
+    position: absolute;
+    top:98%;
+    font: 10px;
+    line-height:100%;
+}
+.submit-b{
+    position:absolute;
+    top:120%;
 }
  }
