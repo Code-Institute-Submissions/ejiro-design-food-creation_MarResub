@@ -15,8 +15,7 @@ https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0
 * Full view of the all the pages of Food Creation website is added above.
 
 ### Home
-![home] (https://github.com/ejiro-design/food-creation/blob/b7c372ac5da1528f5a5503d1fa94179b1729c619/assets/images/home.png)
-
+![home](assets/images/Screenshot1.jpg)
 * The home page features navigation links that can help the user move around the website.
 * list of the navigation is stated below. it display a navigation quick link to take users to where they can register for the competition and to social media page.
 
@@ -26,19 +25,17 @@ https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0
 * Contact
 
 ### About
-![about] (https://github.com/ejiro-design/food-creation/blob/b7c372ac5da1528f5a5503d1fa94179b1729c619/assets/images/home.png)
-
 * A short description of text about the competition is displayed on the ABOUT US column on the Home Page.
 * It explains the relevant and benefit of the competition so that the user can learn the details of the competition. 
 
 ### Gallery
-![gallery] (https://github.com/ejiro-design/food-creation/blob/b7c372ac5da1528f5a5503d1fa94179b1729c619/assets/images/gallary.png)
+![gallery](assets/images/Screenshot2.jpg)
 
 * This page displays images and description of dishes to submit as part of the eligibility to participate in the competition. 
 * Social media link and navigation link is also included for easy navigation.
 
 ### Contact
-![contact] (https://github.com/ejiro-design/food-creation/blob/b7c372ac5da1528f5a5503d1fa94179b1729c619/assets/images/contact.jpg
+![contact](assets/images/Screenshot3.jpg)
 
 * The contact page is where users can fill in their information to register for the competition and also see the judges that are taking part in the competition. 
 * It also include links to social media and you user can navigate back to other pages within the website.
@@ -48,6 +45,6 @@ https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0
 * Home page is working for laptop/iphone view
 * Gallery page is also coming for laptop/iphone  
 * Contact page is working as well for both laptop/iphone
-* the astethic design of the site is exactly how i want it to look
-
+* The astethic design of the site is exactly how i want it to look
+* attached screenshot can now be previewed
 
