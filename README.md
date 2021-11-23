@@ -4,7 +4,7 @@
 * This competition site is for every age group both young and old, as long as you are have talent in cooking, 
 * Its message is targeted at people of all race, color and age.
 
-![media-view] (assets/images/Screenshot.jpg)
+![media-view](assets/images/Screenshot.jpg)
 
 ## Features 
 https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0&fit_width=1
