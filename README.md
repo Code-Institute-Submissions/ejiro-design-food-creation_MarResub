@@ -45,6 +45,9 @@ https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0
 * The registration include the user full names, emaill adress and description of the submited food.
 
 # Testing
-* browser preview was not coming up
-* site could be tested for about 2hours
+* Home page is working for laptop/iphone view
+* Gallery page is also coming for laptop/iphone  
+* Contact page is working as well for both laptop/iphone
+* the astethic design of the site is exactly how i want it to look
+
 
