@@ -72,15 +72,16 @@ div .main-title {
     top: 100px;
 }
 .main-title,
-.main-title h1 {
+.main-title h2 {
     font-size: 72px;
+    font-weight:lighter;
     color: white;
     font-family: Poppins, Source Code Pro;
     text-align: center;
     padding: 0 auto;
 }
 .main-title,
-.main-title h2 {
+.main-title h3 {
     font-size: 30px;
     color: white;
     font-family: inherit;
@@ -374,14 +375,14 @@ div .main-title{
     color:burlywood;
     top:80px;
 }
-.main-title > h1{
+.main-title > h2{
     font-size: 24px;
     position:absolute;
     top:20px;
     bottom: 20%;
     left:18%;
 }
-.main-title > h2{
+.main-title > h3{
     font-size: 13px;
     position:absolute;
     top:40px;
