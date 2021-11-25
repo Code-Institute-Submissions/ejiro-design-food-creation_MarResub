@@ -1,4 +1,4 @@
-# FOOD CREATION 
+# [FOOD CREATION]( https://ejiro-design.github.io/food-creation/)
 * This website is a site that helps people to show their talent
 * and can also be a positive influence to the audience watching.
 * This competition site is for every age group both young and old, as long as you are have talent in cooking, 
@@ -7,8 +7,6 @@
 ![media-view](assets/images/Screenshot.jpg)
 
 ## Features 
-https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0&fit_width=1
-
 * The Food Creation website features links for users to be able to navigate around, HOME, GALLERY AND SIGNUP FORM PAGE
 * There is also a link to social media where users can learn more about the competition
 * Interact with other contestants.
