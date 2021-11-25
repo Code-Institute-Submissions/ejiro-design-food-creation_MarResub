@@ -61,6 +61,14 @@
 * add quoting to family name on line 10, 79, 133, 140 and 215
 
 ## Deployment
+* Opened github repository
+* opened food creation
+* clicked on setting
+* clicked on pages on the side menu
+* navigate to source and clicked on main
+* the site link was published
+
+## CREDIT
 ### Content
 * Icons in the footer was gotten from FONT AWESOME
 * website idea from SQUARESPACE
