@@ -381,7 +381,7 @@ footer {
 
 /* media queries  */
 /* iphone 5/SE */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     #logo {
         margin: 0 auto;
         font-size: 25px;
