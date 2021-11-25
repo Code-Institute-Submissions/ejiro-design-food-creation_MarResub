@@ -14,7 +14,7 @@ body {
 
 /* home page  */
 h1 {
-    font: Source Code Pro,Poppins;
+    font: Source Code Pro, Poppins;
     letter-spacing: normal;
     color: #000000;
     font-weight: lighter;
@@ -78,7 +78,7 @@ div .main-title {
     color: white;
     font-family: Poppins, Source Code Pro;
     text-align: center;
-    padding: 0 auto;
+    padding: 0;
 }
 .main-title,
 .main-title h3 {
@@ -131,7 +131,6 @@ a:hover {
     font-size: 16px;
     text-transform: uppercase;
     font-family: Source Code Pro, Poppins;
-    position: abosolute;
     line-height: 30px;
 }
 
@@ -142,7 +141,7 @@ a:hover {
     text-align: left;
 }
 footer {
-    height: 800px;
+    height: 50px;
 }
 .social-media {
     position: fixed;
@@ -167,7 +166,7 @@ footer {
 }
 /* gallery page */
 #gallery{
-    height:20px;
+    height:780px;
 }
 #g-title{
     position:absolute;
@@ -350,7 +349,7 @@ footer {
     margin-bottom: 20px;
     margin-top: 70px;
     margin-right: 0;
-    padding:5;
+    padding:0;
     font-size: 11px;
     line-height: 20%;
     text-align: center;
@@ -419,7 +418,7 @@ div .main-title{
     line-height:5%;
     overflow: hidden;
     height:50px;
-    width:320;
+    width:320px;
     line-height: 30%;
     position:fixed;
     top:93%;
