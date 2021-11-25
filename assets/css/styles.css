@@ -166,6 +166,9 @@ footer {
     text-align: center;
 }
 /* gallery page */
+#gallery{
+    height:20px;
+}
 #g-title{
     position:absolute;
     left:40%;
