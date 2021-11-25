@@ -41,10 +41,15 @@ https://app.moqups.com/UdpDxXllgOvSONBG8ui6qWXXgt4hV6HQ/view/page/a44548bef?ui=0
 * It also include links to social media and you user can navigate back to other pages within the website.
 * The registration include the user full names, emaill adress and description of the submited food.
 
-# Testing
-* Home page is working for laptop/iphone view
-* Gallery page is also coming for laptop/iphone  
-* Contact page is working as well for both laptop/iphone
-* The astethic design of the site is exactly how i want it to look
-* attached screenshot can now be previewed
+## Testing
+* HTML
+* Nu Html Checker is use to test for errors
+* 5 errors and 2warnings is found
+* End Tag error from line 53, column 5; to line 53, column 14
+* unclosed element (div) from From line 34, column 13; to line 34, column 31
+* From line 33, column 9; to line 33, column 32
+* Stray start tag (script) from line From line 77, column 1; to line 77, column 80
+* i got warning on using H1 element as a top level heading only
 
+CSS
+*
