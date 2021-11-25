@@ -1,4 +1,5 @@
 # [FOOD CREATION]( https://ejiro-design.github.io/food-creation/)
+* This website was build for 2 diffent type of device, macbook pro 13inch and iphone4/SE 
 * This website is a site that helps people to show their talent
 * and can also be a positive influence to the audience watching.
 * This competition site is for every age group both young and old, as long as you are have talent in cooking, 
