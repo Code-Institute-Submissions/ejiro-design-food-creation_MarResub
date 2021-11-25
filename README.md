@@ -1,5 +1,5 @@
 # [FOOD CREATION]( https://ejiro-design.github.io/food-creation/)
-* This website was build for 2 diffent type of device, macbook pro 13inch and iphone4/SE 
+* This website was build for 2 diffent type of device, macbook pro 13inch and iphone5/SE 
 * This website is a site that helps people to show their talent
 * and can also be a positive influence to the audience watching.
 * This competition site is for every age group both young and old, as long as you are have talent in cooking, 
@@ -51,7 +51,7 @@
 * i got warning on using H1 element as a top level heading only
 * moved footer script to the body
 
-## CSS
+### CSS
 * list of errors found below using the (Jigsaw) validator
 * value error on font in line 17
 * value error on padding in line 80
@@ -59,3 +59,12 @@
 * value error on padding and unit in line 349
 * value error on width and unit in line 418
 * add quoting to family name on line 10, 79, 133, 140 and 215
+
+## Deployment
+### Content
+* Icons in the footer was gotten from FONT AWESOME
+* website idea from SQUARESPACE
+
+## Media
+* Photos/images was where taken from UNSPLASH.com
+*

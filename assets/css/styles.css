@@ -389,7 +389,7 @@ footer {
         right: 17%;
     }
 
-    #menu li {
+    #menu >li {
         left: 30%;
         display: inline;
         margin-bottom: 20px;
