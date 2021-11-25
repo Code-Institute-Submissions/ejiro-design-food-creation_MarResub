@@ -76,4 +76,3 @@
 
 ## Media
 * Photos/images was where taken from UNSPLASH.com
-*
