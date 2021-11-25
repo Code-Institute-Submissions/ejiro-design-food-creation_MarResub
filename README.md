@@ -72,6 +72,7 @@
 ### Content
 * Icons in the footer was gotten from FONT AWESOME
 * website idea from SQUARESPACE
+* i was able to link success page with the help of CODEPEN.IO site
 
 ## Media
 * Photos/images was where taken from UNSPLASH.com
