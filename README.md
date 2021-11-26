@@ -47,7 +47,7 @@
 * It also include links to social media and you user can navigate back to other pages within the website.
 * The registration include the user full names, emaill adress and description of the submited food.
 
-## Testing
+## Validator Testing
 ### HTML
 * Nu Html Checker is use to test for errors 
 * 5 errors and 2warnings is found
@@ -66,6 +66,10 @@
 * value error on padding and unit in line 349
 * value error on width and unit in line 418
 * add quoting to family name on line 10, 79, 133, 140 and 215
+
+## Fixed bugs
+* all errors where fixed for css files using the (W3Cvalidator)
+* all errors where fixed for html files using the ( (Jigsaw validator)
 
 ## Deployment
 * Opened github repository
