@@ -7,7 +7,8 @@
 
 ## Planning Section
 * This section shows the wireframe of the site
-![Wireframe](assets/wireframes/Wireframe for food creation site.jpg)
+
+![Wireframe](assets/wireframes/Wireframesite.jpg)
 
 * The image below shows the finished work in a screenshot
 
