@@ -5,6 +5,12 @@
 * This competition site is for every age group both young and old, as long as you are have talent in cooking, 
 * Its message is targeted at people of all race, color and age.
 
+## Planning Section
+* This section shows the wireframe of the site
+![Wireframe](assets/wireframes/Wireframe for food creation site.jpg)
+
+* The image below shows the finished work in a screenshot
+
 ![media-view](assets/wireframes/Screenshot.jpg)
 
 ## Features 
