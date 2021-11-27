@@ -379,8 +379,8 @@ footer {
     text-transform: uppercase;
 }
 
-/* media queries for iphone  */
-@media screen and (max-width: 375px) {
+/* media queries for phone  */
+@media screen and (max-width: 480px) {
     #logo {
         margin: 0 auto;
         font-size: 25px;
@@ -411,13 +411,13 @@ footer {
 
     .dish-photo {
         width: 100%;
-        height: 520px;
+        height: 720px;
         overflow: hidden;
     }
 
     .trans {
         width: 100%;
-        height: 520px;
+        height: 720px;
     }
 
     div .main-title {
@@ -573,5 +573,43 @@ footer {
     .submit-b {
         position: absolute;
         top: 120%;
+    }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px) {
+    #contact{
+        width:50%;
+        height:678px;
+        margin: 0 auto;
+    }
+
+    #judges{
+        width:300px;
+        padding:0;
+        margin: 0;
+        position:abosolute;
+        left:8%;
+    }
+
+    #c-form{
+        width:300px;
+        padding:o;
+        margin:0;
+        position:abosolute;
+        right:8%;
+    }
+
+    #form{
+        position: absolute;
+        top:10%;
+    }
+    .radio-button >label{
+        line-height: 20px;
+    }
+
+    .submit-b{
+        position:absolute;
+        bottom:-29%;
     }
 }
