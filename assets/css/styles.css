@@ -577,7 +577,7 @@ footer {
 }
 
 /* media queries for Tablets, Ipads (portrait)*/
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1023px) {
 
     /* home page */
     div .main-title {
@@ -665,36 +665,10 @@ footer {
     .radio-button .terms {
         position: absolute;
         left: -54%;
-        color: violet;
     }
 
     .submit-b {
         position: absolute;
         bottom: -35%;
     }
-}
-/* screen size for tablets and ipads */
-@media screen and (max-width: 1023px) {
-#photo-gallery {
-    column-count: 3;
-    height: 1500px;
-    width: 850px;
-    position: absolute;
-    top: 20%;
-    bottom: 0%;
-    overflow: hidden;
-    line-height: 0;
-}
-#photo-gallery img{
-    height: auto;
-    width:287px;
-}
-#c-form {
-    position: abosolute;
-    left: 25%;
-}
-#judges {
-    position: abosolute;
-    left: 25%;
-}
 }
