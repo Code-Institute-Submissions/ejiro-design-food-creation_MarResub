@@ -578,6 +578,17 @@ footer {
 
 /* media queries for Ipad */
 @media screen and (max-width: 768px) {
+    /* home page */
+    div .main-title {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+    }
+    .enter-button{
+        position: absolute;
+        left: 200px;
+    }
+    /* gallery page */
     #g-title{
         position:absolute;
         top:10%;
@@ -596,9 +607,7 @@ footer {
         color:white;
         background-color: black;
     }
-    #photo-gallery img{
-    
-    }
+   
     #contact{
         width:50%;
         height:678px;
