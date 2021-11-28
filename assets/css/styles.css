@@ -576,8 +576,29 @@ footer {
     }
 }
 
-/* Ipad */
+/* media queries for Ipad */
 @media screen and (max-width: 768px) {
+    #g-title{
+        position:absolute;
+        top:10%;
+    }
+    #photo-gallery{
+        column-count:2;
+        height:1600px;
+        width:80%;
+        position:absolute;
+        top:20%;
+        bottom:0%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    #photo-gallery > figcaption{
+        color:white;
+        background-color: black;
+    }
+    #photo-gallery img{
+    
+    }
     #contact{
         width:50%;
         height:678px;
