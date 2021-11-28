@@ -610,36 +610,56 @@ footer {
    
     #contact{
         width:50%;
-        height:678px;
+        height:1000px;
         margin: 0 auto;
     }
 
     #judges{
-        width:300px;
+        width:520px;
         padding:0;
         margin: 0;
         position:abosolute;
-        left:8%;
+        left:15%;
     }
 
     #c-form{
-        width:300px;
+        width:500px;
         padding:o;
         margin:0;
         position:abosolute;
-        right:8%;
+        left:15%;
+        top: 85%;
     }
-
     #form{
         position: absolute;
         top:10%;
+        left:60px;
+    }
+    #c-form input{
+        width:300px;
+    }
+    #c-form textarea{
+        width:300px;
+        border-radius: 5px;
+    }
+
+    .radio-button{
+        padding:0;
+        margin:0;
     }
     .radio-button >label{
-        line-height: 20px;
+        line-height: 15px;
+        position: absolute;
+        left:20px;
+    }
+    .radio-button .terms{
+        position:absolute;
+        left:-54%;
+        color:violet;
     }
 
     .submit-b{
         position:absolute;
-        bottom:-29%;
+        bottom:-35%;
     }
 }
