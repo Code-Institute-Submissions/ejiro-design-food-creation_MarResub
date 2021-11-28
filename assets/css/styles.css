@@ -671,4 +671,16 @@ footer {
         position: absolute;
         bottom: -35%;
     }
+    /* success page */
+    .success{
+        position: absolute;
+        left:22%;
+        height: 50%;
+        width:60%;
+        border:#767c6b solid 1px;
+    }
+    .success h1 p{
+        position: absolute;
+        bottom:40%;
+    }
 }
