@@ -637,41 +637,40 @@ footer {
         position:absolute;
         left:70%;
     }
-
     /* gallery page */
-    #g-title {}
+    #g-title {
+        margin-left: 18%;
+    }
 
-    #photo-gallery {}
+    #photo-gallery {
+        column-count: 4;
+        position: absolute;
+        bottom: -100%;
+    }
+    #photo-gallery img{
+            width:auto;
+            height:370px;
+    }
 
-    #photo-gallery>figcaption {}
+    #contact {
+        height: 1100px;
+    }
 
-    #contact {}
+    #judges {
+        width: 40%;
+        margin: 0 30px 0;
+    }
 
-    #judges {}
-
-    #c-form {}
-
-    #form {}
-
-    #c-form input {}
-
-    #c-form textarea {}
-
-    .radio-button {}
-
-    .radio-button>label {}
-
-    .radio-button .terms {
-        ;
+    #c-form {
+        width: 40%;
+        height:57%;
+        margin: 80px 30px 0px;
+        position:absolute;
+        left:50%;
+        top:13%;
     }
 
     .submit-b {}
-
-    /* success page */
-    .success {}
-
-    .success h1 p {}
-}
 
 }
 
