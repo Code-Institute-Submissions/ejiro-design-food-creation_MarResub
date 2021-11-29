@@ -389,7 +389,7 @@ footer {
     }
     #menu li{
         margin:15px;
-        padding:0;
+        padding:10px 0 10px;
     }
     
     div .main-title {
@@ -422,15 +422,30 @@ footer {
 
     /* gallery page */
     #g-title {
-        
+        position:absolute;
+        left:10%;
+        top:20%;
     }
 
     #photo-gallery {
-        
+        column-count:2;
+        position: absolute;
+        top: 29%;
+        bottom: -115%;
+        left: 5%;
+        width: 85%;
+        height: auto;
+        overflow: hidden;
+
     }
 
+    #photo-gallery img{
+        height: auto;
+
+    }
     #photo-gallery>figcaption {
-       
+        line-height: 15px;
+        padding:10px 0 10px;
     }
 
     #contact {
