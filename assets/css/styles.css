@@ -379,56 +379,58 @@ footer {
 }
 
 /* media queries for all phones  */
-@media screen and (min-width: 320px){
-    #logo{
-        float:left;
-        margin:7px;
-    }
-    #menu{
-        float:left;
-    }
-    #menu li{
-        margin:15px;
-        padding:10px 0 10px;
-    }
-    
-    div .main-title {
-        position:absolute;
-        left:2%;
-        top:25%;
+@media screen and (min-width: 320px) {
+    #logo {
+        float: left;
+        margin: 7px;
     }
 
-    .main-title h2{
+    #menu {
+        float: left;
+    }
+
+    #menu li {
+        margin: 15px;
+        padding: 10px 0 10px;
+    }
+
+    div .main-title {
+        position: absolute;
+        left: 2%;
+        top: 25%;
+    }
+
+    .main-title h2 {
         font-size: 35px;
     }
 
-    .main-title h3{
+    .main-title h3 {
         font-size: 19px;
-        position:absolute;
-        top:50%;
+        position: absolute;
+        top: 50%;
     }
 
     .enter-button {
-        position:absolute;
-        top:35%;
-        left:2%;
-        height:30px;
+        position: absolute;
+        top: 35%;
+        left: 2%;
+        height: 30px;
     }
 
-    .about{
-        position:absolute;
-        left:10%;
+    .about {
+        position: absolute;
+        left: 10%;
     }
 
     /* gallery page */
     #g-title {
-        position:absolute;
-        left:10%;
-        top:20%;
+        position: absolute;
+        left: 10%;
+        top: 20%;
     }
 
     #photo-gallery {
-        column-count:2;
+        column-count: 2;
         position: absolute;
         top: 29%;
         bottom: -115%;
@@ -439,17 +441,18 @@ footer {
 
     }
 
-    #photo-gallery img{
+    #photo-gallery img {
         height: auto;
 
     }
+
     #photo-gallery>figcaption {
         line-height: 15px;
-        padding:10px 0 10px;
+        padding: 10px 0 10px;
     }
 
     #contact {
-        height:1000px;
+        height: 1000px;
 
     }
 
@@ -458,19 +461,19 @@ footer {
         left: 7%;
         width: 270px;
         height: fit-content;
-        top:25%;
+        top: 25%;
     }
 
     #c-form {
         position: absolute;
-        top:80%;
+        top: 80%;
         left: 7%;
         width: 250px;
         height: fit-content;
     }
 
     #form {
-        padding-top:0;
+        padding-top: 0;
     }
 
     .radio-button {
@@ -478,27 +481,29 @@ footer {
     }
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) {
+
     /* home page */
-    #logo{
-        float:left;
-        margin-left:100px;
+    #logo {
+        float: left;
+        margin-left: 100px;
     }
-    #menu{
-        float:left;
-        margin-left:100px
+
+    #menu {
+        float: left;
+        margin-left: 100px
     }
 
     /* gallery page */
-    
+
     #g-title {
-        position:absolute;
-        left:20%;
-       
+        position: absolute;
+        left: 20%;
+
     }
 
     #photo-gallery {
-        column-count:2;
+        column-count: 2;
         position: absolute;
         bottom: -87%;
         width: 85%;
@@ -506,9 +511,7 @@ footer {
         overflow: hidden;
     }
 
-    #contact {
-        
-    }
+    #contact {}
 
     #judges {
         width: 70%;
@@ -516,47 +519,49 @@ footer {
     }
 
     #c-form {
-        width:66%;
+        width: 66%;
         margin: 10px 30px 0;
     }
 }
 
 /* media queries for Tablets, Ipads (portrait)*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
     /* home page */
-    #logo{
-        float:left;
-        margin-left:300px;
-    }
-    #menu{
-        float:left;
-        margin-left:280px
+    #logo {
+        float: left;
+        margin-left: 300px;
     }
 
-    #menu li{
-        font-size:18px;
+    #menu {
+        float: left;
+        margin-left: 280px
     }
 
-    div .main-title{
-        position:absolute;
-        right:20%;
+    #menu li {
+        font-size: 18px;
     }
-    .main-title h2{
+
+    div .main-title {
+        position: absolute;
+        right: 20%;
+    }
+
+    .main-title h2 {
         font-size: 50px;
     }
 
-    .main-title h3{
+    .main-title h3 {
         font-size: 30px;
         margin-left: 20%;
         margin-top: 3%;
     }
 
     .enter-button {
-        position:absolute;
-        left:50%;
-        top:38%;
-        
+        position: absolute;
+        left: 50%;
+        top: 38%;
+
     }
 
     /* gallery page */
@@ -565,217 +570,113 @@ footer {
     }
 
     #photo-gallery {
-        column-count:3;
+        column-count: 3;
         position: absolute;
         bottom: -100%;
-        left:7%;
+        left: 7%;
     }
-/* contact */
+
+    /* contact */
+    #contact {
+        height: 1100px;
+
+    }
+
     #judges {
-        width: 70%;
+        width: 80%;
         margin: 0 30px 0;
     }
 
     #c-form {
-        width:66%;
-        margin: 10px 30px 0;
-    }
-
-    #photo-gallery>figcaption {
-       
-    }
-
-    #contact {
-        
-    }
-
-    #judges {
-       
-    }
-
-    #c-form {
-        
-    }
-
-    #form {
-       
-    }
-
-    #c-form input {
-        
-    }
-
-    #c-form textarea {
-        
-    }
-
-    .radio-button {
-       
-    }
-
-    .radio-button>label {
-       
-    }
-
-    .radio-button .terms {
-        ;
-    }
-
-    .submit-b {
-       
-    }
-    /* success page */
-    .success{
-        
-    }
-    .success h1 p{
-        
+        width: 77%;
+        margin: 80px 30px 0px;
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
 
     /* home page */
-    div .main-title {
-        
-    }
+    div .main-title {}
 
-    .enter-button {
-        
-    }
+    .enter-button {}
 
     /* gallery page */
-    #g-title {
-        
-    }
+    #g-title {}
 
-    #photo-gallery {
-        
-    }
+    #photo-gallery {}
 
-    #photo-gallery>figcaption {
-       
-    }
+    #photo-gallery>figcaption {}
 
-    #contact {
-        
-    }
+    #contact {}
 
-    #judges {
-       
-    }
+    #judges {}
 
-    #c-form {
-        
-    }
+    #c-form {}
 
-    #form {
-       
-    }
+    #form {}
 
-    #c-form input {
-        
-    }
+    #c-form input {}
 
-    #c-form textarea {
-        
-    }
+    #c-form textarea {}
 
-    .radio-button {
-       
-    }
+    .radio-button {}
 
-    .radio-button>label {
-       
-    }
+    .radio-button>label {}
 
     .radio-button .terms {
         ;
     }
 
-    .submit-b {
-       
-    }
+    .submit-b {}
+
     /* success page */
-    .success{
-        
-    }
-    .success h1 p{
-        
-    }
+    .success {}
+
+    .success h1 p {}
 }
 
 }
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 1200px) {
 
     /* home page */
-    div .main-title {
-        
-    }
+    div .main-title {}
 
-    .enter-button {
-        
-    }
+    .enter-button {}
 
     /* gallery page */
-    #g-title {
-        
-    }
+    #g-title {}
 
-    #photo-gallery {
-        
-    }
+    #photo-gallery {}
 
-    #photo-gallery>figcaption {
-       
-    }
+    #photo-gallery>figcaption {}
 
-    #contact {
-        
-    }
+    #contact {}
 
-    #judges {
-       
-    }
+    #judges {}
 
-    #c-form {
-        
-    }
+    #c-form {}
 
-    #form {
-       
-    }
+    #form {}
 
-    #c-form input {
-        
-    }
+    #c-form input {}
 
-    #c-form textarea {
-        
-    }
+    #c-form textarea {}
 
-    .radio-button {
-       
-    }
+    .radio-button {}
 
-    .radio-button>label {
-       
-    }
+    .radio-button>label {}
 
     .radio-button .terms {
         ;
     }
 
-    .submit-b {
-       
-    }
+    .submit-b {}
+
     /* success page */
-    .success{
-        
-    }
-    .success h1 p{
-        
-    }
+    .success {}
+
+    .success h1 p {}
 }
 
 }
