@@ -561,11 +561,24 @@ footer {
 
     /* gallery page */
     #g-title {
-        
+        margin-left: 18%;
     }
 
     #photo-gallery {
-        
+        column-count:3;
+        position: absolute;
+        bottom: -100%;
+        left:7%;
+    }
+/* contact */
+    #judges {
+        width: 70%;
+        margin: 0 30px 0;
+    }
+
+    #c-form {
+        width:66%;
+        margin: 10px 30px 0;
     }
 
     #photo-gallery>figcaption {
