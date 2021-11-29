@@ -473,49 +473,20 @@ footer {
         padding-top:0;
     }
 
-    #c-form input {
-        
-    }
-
-    #c-form textarea {
-        
-    }
-
     .radio-button {
         line-height: 100%;
-
-       
-    }
-
-    .radio-button>label {
-       
-    }
-
-    .radio-button .terms {
-        ;
-    }
-
-    .submit-b {
-       
-    }
-    /* success page */
-    .success{
-        
-    }
-    .success h1 p{
-        
     }
 }
 
 @media screen and (min-width: 480px){
-    
     /* home page */
-    div .main-title {
-        
+    #logo{
+        float:left;
+        margin-left:100px;
     }
-
-    .enter-button {
-        
+    #menu{
+        float:left;
+        margin-left:100px
     }
 
     /* gallery page */
