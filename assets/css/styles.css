@@ -594,11 +594,49 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-
     /* home page */
-    div .main-title {}
+    #logo {
+        float: left;
+        margin-left: 50px;
+    }
 
-    .enter-button {}
+    #menu {
+        float: right;
+        margin-right: 50px
+    }
+
+    #menu li {
+        font-size: 18px;
+    }
+
+    div .main-title {
+        position: absolute;
+        right: 20%;
+        top:15%;
+    }
+
+    .main-title h2 {
+        font-size: 50px;
+        margin-right:5%;
+        margin-top: 3%;
+    }
+
+    .main-title h3 {
+        font-size: 30px;
+        margin-left: 27%;
+        margin-top: 3%;
+    }
+
+    .enter-button {
+        position: absolute;
+        left: 30%;
+        top: 30%;
+    }
+
+    .about{
+        position:absolute;
+        left:70%;
+    }
 
     /* gallery page */
     #g-title {}
