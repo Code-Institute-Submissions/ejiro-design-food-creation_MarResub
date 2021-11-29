@@ -379,7 +379,219 @@ footer {
 }
 
 /* media queries for all phones  */
-@media (max-width: 480px) and (min-width: 411px){
+@media (min-width: 320px){
+    #logo {
+        margin: 0 auto;
+        font-size: 25px;
+        position: absolute;
+        left: 18%;
+        line-height: 78%;
+    }
+    #menu{
+        margin-right:40px;
+        padding:15px 0 0 2px;
+        clear:both;
+    }
+    #menu>li {
+        display: inline;
+        margin: 10px;
+        padding: 10px;
+        font-size: 13px;
+        line-height: 20%;
+        text-align: center;
+    }
+
+    .dish {
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+        height: 420px;
+        overflow: hidden;
+    }
+
+    .dish-photo {
+        width: 100%;
+        height: 720px;
+        overflow: hidden;
+        clear:both;
+    }
+
+    .trans {
+        width: 100%;
+        height: 720px;
+    }
+
+    div .main-title {
+        width: 100%;
+        position: absolute;
+        left: -12%;
+        color: burlywood;
+        top: 80px;
+    }
+
+    .main-title>h2 {
+        font-size: 28px;
+        position: absolute;
+        top: 20px;
+        bottom: 20%;
+        left: 18%;
+    }
+
+    .main-title>h3 {
+        font-size: 15px;
+        position: absolute;
+        top: 40px;
+        bottom: 0%;
+        left: 18%;
+    }
+
+    .enter-button {
+        position: absolute;
+        top: 155px;
+        left: 18%;
+        height: 23px;
+        width: 80px;
+    }
+
+    .enter-button p {
+        font-size: 10px;
+    }
+
+    .about {
+        position: absolute;
+        left: 5%;
+        top: 63%;
+        height: 25%;
+        width: 48%;
+    }
+
+    .about h4 {
+        font-size: 12px;
+    }
+
+    .about p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .social-media {
+        line-height: 5%;
+        overflow: hidden;
+        height: 50px;
+        width: 320px;
+        line-height: 30%;
+        position: fixed;
+        top: 93%;
+    }
+
+    .social-media li {
+        display: inline;
+        margin:5px 20px 0 0px;
+        padding:0;
+        float: left;
+    }
+
+    .social-media i {
+        padding: 0;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* gallery */
+    #g-title {
+        position: absolute;
+        left: 10%;
+        top: 18%;
+        width: fit-content;
+    }
+
+    #g-title h1 {
+        font-size: 12px;
+    }
+
+    #photo-gallery {
+        position: absolute;
+        top: 25%;
+        bottom: -100%;
+        left: 5%;
+        width: 85%;
+        height: auto;
+        column-count: 2;
+        column-gap: 0;
+        overflow: hidden;
+    }
+
+    #photo-gallery img {
+        width: 80%;
+        height: auto;
+    }
+
+    #photo-gallery figcaption {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    /* contact page */
+    #judges {
+        position: absolute;
+        left: 7%;
+        width: 270px;
+        height: fit-content;
+    }
+
+    #judges>h1 {
+        text-align: left;
+        margin: 5px 5px 5px;
+        padding: 5px 0;
+        font-size: 12px;
+    }
+
+    #judges img {
+        width: 97%;
+        column-gap: 0;
+        column-count: 3;
+        padding: 5px 0 0 0;
+
+    }
+
+    #c-form {
+        position: absolute;
+        top: 65%;
+        width: 250px;
+        left: 25px;
+    }
+
+    #form {
+        position: absolute;
+        top: 10%;
+    }
+
+    .radio-button {
+        position: absolute;
+        top: 98%;
+        font: 10px;
+        line-height: 100%;
+    }
+
+    .submit-b {
+        position: absolute;
+        top: 120%;
+    }
+     /* success page */
+     .success{
+        position: absolute;
+        left:22%;
+        height: 50%;
+        width:60%;
+        border:#767c6b solid 1px;
+    }
+    .success h1 p{
+        position: absolute;
+        bottom:40%;
+    }
+}
+
+@media screen and (min-width: 480px){
     #logo {
         margin: 0 auto;
         font-size: 25px;
@@ -588,7 +800,7 @@ footer {
 }
 
 /* media queries for Tablets, Ipads (portrait)*/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px){
 
     /* home page */
     div .main-title {
@@ -694,4 +906,11 @@ footer {
         position: absolute;
         bottom:40%;
     }
+}
+
+@media screen and (min-width: 1024px){
+
+}
+@media screen and (max-width: 1200px){
+
 }
