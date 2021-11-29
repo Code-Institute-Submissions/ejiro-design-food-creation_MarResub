@@ -490,16 +490,20 @@ footer {
     }
 
     /* gallery page */
+    
     #g-title {
-        
+        position:absolute;
+        left:20%;
+       
     }
 
     #photo-gallery {
-        
-    }
-
-    #photo-gallery>figcaption {
-       
+        column-count:2;
+        position: absolute;
+        bottom: -87%;
+        width: 85%;
+        height: auto;
+        overflow: hidden;
     }
 
     #contact {
@@ -507,46 +511,13 @@ footer {
     }
 
     #judges {
-       
+        width: 70%;
+        margin: 0 30px 0;
     }
 
     #c-form {
-        
-    }
-
-    #form {
-       
-    }
-
-    #c-form input {
-        
-    }
-
-    #c-form textarea {
-        
-    }
-
-    .radio-button {
-       
-    }
-
-    .radio-button>label {
-       
-    }
-
-    .radio-button .terms {
-        ;
-    }
-
-    .submit-b {
-       
-    }
-    /* success page */
-    .success{
-        
-    }
-    .success h1 p{
-        
+        width:66%;
+        margin: 10px 30px 0;
     }
 }
 
