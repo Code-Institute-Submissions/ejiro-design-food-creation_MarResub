@@ -377,178 +377,18 @@ footer {
     font-size: 20px;
     text-transform: uppercase;
 }
-/* media queries for Tablets, Ipads (portrait)*/
-@media screen and (max-width: 1200px) {
-    #logo {
-        float: left;
-        margin-left: 50px;
-    }
-
-    #menu {
-        float: right;
-        margin-right: 50px
-    }
-
-    #menu li {
-        font-size: 18px;
-    }
-
-    div .main-title {
-        position: absolute;
-        right: 20%;
-        top: 15%;
-    }
-
-    .main-title h2 {
-        font-size: 60px;
-        margin-right: 5%;
-        margin-top: 3%;
-    }
-
-    .main-title h3 {
-        font-size: 30px;
-        margin-left: 27%;
-        margin-top: 3%;
-    }
-
-    .enter-button {
-        position: absolute;
-        left: 30%;
-        top: 33%;
-    }
-
-    .about {
-        position: absolute;
-        left: 70%;
-    }
-
-    /* gallery page */
-    #g-title {
-        margin-left: 18%;
-    }
-
-    #photo-gallery {
-        column-count: 4;
-        position: absolute;
-        bottom: -100%;
-    }
-
-    #photo-gallery img {
-        width: auto;
-        height: 370px;
-    }
-
-    #contact {
-        height: 1100px;
-    }
-
-    #judges {
-        width: 40%;
-        margin: 0 30px 0;
-    }
-
-    #c-form {
-        width: 40%;
-        height: 51%;
-        margin: 0px 30px 0px;
-        position: absolute;
-        left: 50%;
-        top: 25%;
-    }
-
-}
-@media screen and (max-width: 1024px) {
-
-    /* home page */
-    #logo {
-        float: left;
-        margin-left: 50px;
-    }
-
-    #menu {
-        float: right;
-        margin-right: 50px
-    }
-
-    #menu li {
-        font-size: 18px;
-    }
-
-    div .main-title {
-        position: absolute;
-        right: 20%;
-        top: 15%;
-    }
-
-    .main-title h2 {
-        font-size: 50px;
-        margin-right: 5%;
-        margin-top: 3%;
-    }
-
-    .main-title h3 {
-        font-size: 30px;
-        margin-left: 27%;
-        margin-top: 3%;
-    }
-
-    .enter-button {
-        position: absolute;
-        left: 30%;
-        top: 30%;
-    }
-
-    .about {
-        position: absolute;
-        left: 70%;
-    }
-
-    /* gallery page */
-    #g-title {
-        margin-left: 18%;
-    }
-
-    #photo-gallery {
-        column-count: 4;
-        position: absolute;
-        bottom: -100%;
-    }
-
-    #photo-gallery img {
-        width: auto;
-        height: 370px;
-    }
-
-    #contact {
-        height: 1100px;
-    }
-
-    #judges {
-        width: 40%;
-        margin: 0 30px 0;
-    }
-
-    #c-form {
-        width: 40%;
-        height: 57%;
-        margin: 80px 30px 0px;
-        position: absolute;
-        left: 50%;
-        top: 13%;
-    }
-
-}
+    /* media queries */
 @media screen and (max-width: 768px) {
 
     /* home page */
     #logo {
         float: left;
-        margin-left: 300px;
+        margin-left: 20px;
     }
 
     #menu {
-        float: left;
-        margin-left: 280px
+        float: right;
+        margin:0 10px 0;
     }
 
     #menu li {
@@ -557,36 +397,45 @@ footer {
 
     div .main-title {
         position: absolute;
-        right: 20%;
+        left: 10%;
     }
 
     .main-title h2 {
         font-size: 50px;
+        
     }
 
     .main-title h3 {
-        font-size: 30px;
-        margin-left: 20%;
-        margin-top: 3%;
+        font-size: 25px;
+        margin-left: 2%;
     }
 
     .enter-button {
         position: absolute;
-        left: 50%;
-        top: 38%;
+        left: 30%;
+        top: 32%;
+    }
+
+    .about{
+        position: absolute;
+        left:6%;
 
     }
 
     /* gallery page */
     #g-title {
-        margin-left: 18%;
+        margin-right: 40%;
     }
 
     #photo-gallery {
-        column-count: 3;
+        column-count: 2;
         position: absolute;
-        bottom: -100%;
-        left: 7%;
+        top: 30%;
+        bottom: 80%;
+    }
+    #photo-gallery img{
+        width:100%;
+        height:auto;
     }
 
     /* contact */
@@ -596,154 +445,15 @@ footer {
     }
 
     #judges {
-        width: 80%;
+        width: 50%;
         margin: 0 30px 0;
     }
 
     #c-form {
-        width: 77%;
-        margin: 80px 30px 0px;
+        width: 48%;
+        margin: 408px 101px 0;
     }
-}
-/* media queries for all phones  */
-@media screen and (max-width: 480px) {
-
-    /* home page */
-    #logo {
-        float: left;
-        margin-left: 100px;
-    }
-
-    #menu {
-        float: left;
-        margin-left: 100px
-    }
-
-    /* gallery page */
-
-    #g-title {
-        position: absolute;
-        left: 20%;
-
-    }
-
-    #photo-gallery {
-        column-count: 2;
-        position: absolute;
-        bottom: -87%;
-        width: 85%;
-        height: auto;
-        overflow: hidden;
-    }
-
-    #judges {
-        width: 70%;
-        margin: 0 30px 0;
-    }
-
-    #c-form {
-        width: 66%;
-        margin: 10px 30px 0;
-    }
-}
-@media screen and (max-width: 320px) {
-    #logo {
-        float: left;
-        margin: 7px;
-    }
-
-    #menu {
-        float: left;
-    }
-
-    #menu li {
-        margin: 15px;
-        padding: 10px 0 10px;
-    }
-
-    div .main-title {
-        position: absolute;
-        left: 2%;
-        top: 25%;
-    }
-
-    .main-title h2 {
-        font-size: 35px;
-    }
-
-    .main-title h3 {
-        font-size: 19px;
-        position: absolute;
-        top: 50%;
-    }
-
-    .enter-button {
-        position: absolute;
-        top: 35%;
-        left: 2%;
-        height: 30px;
-    }
-
-    .about {
-        position: absolute;
-        left: 10%;
-    }
-
-    /* gallery page */
-    #g-title {
-        position: absolute;
-        left: 10%;
-        top: 20%;
-    }
-
-    #photo-gallery {
-        column-count: 2;
-        position: absolute;
-        top: 29%;
-        bottom: -115%;
-        left: 5%;
-        width: 85%;
-        height: auto;
-        overflow: hidden;
-
-    }
-
-    #photo-gallery img {
-        height: auto;
-
-    }
-
-    #photo-gallery>figcaption {
-        line-height: 15px;
-        padding: 10px 0 10px;
-    }
-
-    #contact {
-        height: 1000px;
-
-    }
-
-    #judges {
-        position: absolute;
-        left: 7%;
-        width: 270px;
-        height: fit-content;
-        top: 25%;
-    }
-
-    #c-form {
-        position: absolute;
-        top: 80%;
-        left: 7%;
-        width: 250px;
-        height: fit-content;
-    }
-
-    #form {
-        padding-top: 0;
-    }
-
-    .radio-button {
+    .radio-button{
         line-height: 100%;
     }
 }
