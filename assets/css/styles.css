@@ -511,8 +511,6 @@ footer {
         overflow: hidden;
     }
 
-    #contact {}
-
     #judges {
         width: 70%;
         margin: 0 30px 0;
@@ -594,6 +592,7 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+
     /* home page */
     #logo {
         float: left;
@@ -612,12 +611,12 @@ footer {
     div .main-title {
         position: absolute;
         right: 20%;
-        top:15%;
+        top: 15%;
     }
 
     .main-title h2 {
         font-size: 50px;
-        margin-right:5%;
+        margin-right: 5%;
         margin-top: 3%;
     }
 
@@ -633,10 +632,11 @@ footer {
         top: 30%;
     }
 
-    .about{
-        position:absolute;
-        left:70%;
+    .about {
+        position: absolute;
+        left: 70%;
     }
+
     /* gallery page */
     #g-title {
         margin-left: 18%;
@@ -647,9 +647,10 @@ footer {
         position: absolute;
         bottom: -100%;
     }
-    #photo-gallery img{
-            width:auto;
-            height:370px;
+
+    #photo-gallery img {
+        width: auto;
+        height: 370px;
     }
 
     #contact {
@@ -663,11 +664,11 @@ footer {
 
     #c-form {
         width: 40%;
-        height:57%;
+        height: 57%;
         margin: 80px 30px 0px;
-        position:absolute;
-        left:50%;
-        top:13%;
+        position: absolute;
+        left: 50%;
+        top: 13%;
     }
 
 }
@@ -690,12 +691,12 @@ footer {
     div .main-title {
         position: absolute;
         right: 20%;
-        top:15%;
+        top: 15%;
     }
 
     .main-title h2 {
         font-size: 60px;
-        margin-right:5%;
+        margin-right: 5%;
         margin-top: 3%;
     }
 
@@ -711,10 +712,11 @@ footer {
         top: 33%;
     }
 
-    .about{
-        position:absolute;
-        left:70%;
+    .about {
+        position: absolute;
+        left: 70%;
     }
+
     /* gallery page */
     #g-title {
         margin-left: 18%;
@@ -725,9 +727,10 @@ footer {
         position: absolute;
         bottom: -100%;
     }
-    #photo-gallery img{
-            width:auto;
-            height:370px;
+
+    #photo-gallery img {
+        width: auto;
+        height: 370px;
     }
 
     #contact {
@@ -741,11 +744,11 @@ footer {
 
     #c-form {
         width: 40%;
-        height:51%;
+        height: 51%;
         margin: 0px 30px 0px;
-        position:absolute;
-        left:50%;
-        top:25%;
+        position: absolute;
+        left: 50%;
+        top: 25%;
     }
-   
+
 }
