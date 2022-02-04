@@ -378,84 +378,34 @@ footer {
     text-transform: uppercase;
 }
     /* media queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+    .enter-button{
+        margin: 7% 9% 0%;
+}
+#contact{
+    margin-right: 30px;
+    background-color: #000000;
+}
+#judges {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    right:100%;
+}
+#c-form{
+    height: auto;
+    width: 300px;
+    left:55%
+}
+#form{
+    margin-top: -10%;
+}
 
-    /* home page */
-    #logo {
-        float: left;
-        margin-left: 20px;
-    }
-
-    #menu {
-        float: right;
-        margin:0 10px 0;
-    }
-
-    #menu li {
-        font-size: 18px;
-    }
-
-    div .main-title {
-        position: absolute;
-        left: 10%;
-    }
-
-    .main-title h2 {
-        font-size: 50px;
-        
-    }
-
-    .main-title h3 {
-        font-size: 25px;
-        margin-left: 2%;
-    }
-
-    .enter-button {
-        position: absolute;
-        left: 30%;
-        top: 32%;
-    }
-
-    .about{
-        position: absolute;
-        left:6%;
-
-    }
-
-    /* gallery page */
-    #g-title {
-        margin-right: 40%;
-    }
-
-    #photo-gallery {
-        column-count: 2;
-        position: absolute;
-        top: 30%;
-        bottom: 80%;
-    }
-    #photo-gallery img{
-        width:100%;
-        height:auto;
-    }
-
-    /* contact */
-    #contact {
-        height: 1100px;
-
-    }
-
-    #judges {
-        width: 50%;
-        margin: 0 30px 0;
-    }
-
-    #c-form {
-        width: 48%;
-        margin: 408px 101px 0;
-    }
-    .radio-button{
-        line-height: 100%;
-    }
+.radio-button .terms {
+    line-height: 150px;
+    color: brown;
+}
+ 
 }
 
 
