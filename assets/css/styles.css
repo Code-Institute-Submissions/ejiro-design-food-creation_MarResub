@@ -390,15 +390,17 @@ footer {
     height: 400px;
     width: 300px;
     position: absolute;
-    right:100%;
+    right: 20%;
 }
 #c-form{
     height: auto;
     width: 300px;
-    left:55%
+    left: 45%;
+    
 }
 #form{
     margin-top: -10%;
+    
 }
 
 .radio-button .terms {
