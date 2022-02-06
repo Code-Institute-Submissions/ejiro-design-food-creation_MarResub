@@ -389,15 +389,22 @@ footer {
         margin: 7% 9% 0%;
     }
 
-    section>#contact {
-        background-color: #000000;
-    }
-
     #judges {
         height: 377px;
         width:260px;
         position: absolute;
         right: 100%;
+    }
+    #judges img{
+        margin: 0;
+        position: relative;
+        left: 30%;
+    }
+
+    #judges h1{
+       margin-left: 25%;
+       margin-bottom:5% ;
+       margin-top: 5%;
     }
 
     #c-form {
@@ -410,9 +417,9 @@ footer {
         margin-top: -10%;
     }
 
-    .radio-button .terms {
-        line-height: 150px;
-        color: brown;
+    .radio-button>label{
+        line-height: 80%;
+        padding: 0px 0px 5px;
     }
 
 }
