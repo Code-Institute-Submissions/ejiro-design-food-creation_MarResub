@@ -250,7 +250,6 @@ footer {
 #judges {
     clear: both;
     column-count: 2;
-    line-height: 0;
     column-gap: 0;
     width: 510px;
     height: 400px;
@@ -258,7 +257,6 @@ footer {
     position: absolute;
     left: 125px;
     top: 100px;
-    display: inline-block;
 }
 
 #judges>h1 {
@@ -266,14 +264,21 @@ footer {
     font-size: 15px;
     font-weight: bold;
     color: #312d2d;
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 0%;
+    float: left;
+    padding:0px 10px 0;
 }
 
 #judges img {
     height: auto;
-    width: 50%;
-    padding: 50px 2px 5px 60px;
+    width: 45%;
+    padding: 5px;
     overflow: auto;
+    float:right;
+    margin-top: 30%;
+    display:block;
+    line-height: normal;
 }
 
 #c-form {
@@ -377,39 +382,37 @@ footer {
     font-size: 20px;
     text-transform: uppercase;
 }
-    /* media queries */
+
+/* media queries */
 @media screen and (max-width: 800px) {
-    .enter-button{
+    .enter-button {
         margin: 7% 9% 0%;
-}
-#contact{
-    margin-right: 30px;
-    background-color: #000000;
-}
-#judges {
-    height: 400px;
-    width: 300px;
-    position: absolute;
-    right:100%;
-}
-#c-form{
-    height: auto;
-    width: 300px;
-    left:55%
-}
-#form{
-    margin-top: -10%;
-}
+    }
 
-.radio-button .terms {
-    line-height: 150px;
-    color: brown;
+    section>#contact {
+        background-color: #000000;
+    }
+
+    #judges {
+        height: 377px;
+        width:260px;
+        position: absolute;
+        right: 100%;
+    }
+
+    #c-form {
+        height: auto;
+        width: 260px;
+        left: 50%
+    }
+
+    #form {
+        margin-top: -10%;
+    }
+
+    .radio-button .terms {
+        line-height: 150px;
+        color: brown;
+    }
+
 }
- 
-}
-
-
-
-
-
-
