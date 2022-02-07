@@ -188,6 +188,7 @@ footer {
 /* gallery page */
 #gallery {
     height: 780px;
+    width: 80%;
 }
 
 #g-title {
@@ -209,10 +210,6 @@ footer {
     font-size: 12px;
     text-align: center;
     font-weight: bold;
-}
-
-#gallery {
-    width: 80%;
 }
 
 #photo-gallery {
@@ -413,9 +410,11 @@ footer {
     }
 
     #judges img {
+        height: 83px;
+        width: 135px;
         margin: 0;
         position: relative;
-        left: 30%;
+        left: 27%;
     }
 
     #judges h1 {
@@ -433,43 +432,121 @@ footer {
 
 }
 
-@media screen and (max-width: 800px) {
-    .enter-button {
-        margin: 7% 9% 0%;
-    }
-
-    #judges {
-        width: 260px;
+@media screen and (max-width: 998px){
+        #judges {
         position: absolute;
-        right: 100%;
+        left: 21%;
     }
 
-    #judges img {
-        margin: 0;
-        position: relative;
-        left: 30%;
+}
+
+@media screen and (max-width: 960px){
+    #judges {
+        position: absolute;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 922px){
+    #judges {
+        position: absolute;
+        left: 19%;
     }
 
-    #judges,
-    h1 {
-        font-size: 7px;
-        margin-left: 25%;
-        margin-bottom: 5%;
-        margin-top: 5%;
+}
+
+@media screen and (max-width: 896px) {
+    #judges {
+        position: absolute;
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 864px) {
+    #judges {
+        position: absolute;
+        left: 17%;
+    }
+}
+
+@media screen and (max-width: 838px) {
+    #judges {
+        position: absolute;
+        left: 16%;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    #judges {
+        position: absolute;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 879px) {
+    #judges {
+        position: absolute;
+        left: 14%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #judges {
+        position: absolute;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    #judges {
+        position: absolute;
+        left: 12%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    #judges {
+        position: absolute;
+        left: 10%;
+    }
+}
+@media screen and (max-width: 714px) {
+    #judges {
+        position: absolute;
+        left: 9%;
+        bottom: 40%;
+    }
+    #logo{
+        position: absolute;
+        margin-left: 30%;
+    }
+    #menu {
+        position: absolute;
+        left: 9%;
+        top: 5%;
+        margin-left:120px;
     }
 
-    #c-form {
-        height: auto;
-        width: 260px;
-    }
-
-    #form {
-        margin-top: -10%;
-    }
-
-    .radio-button>label {
-        line-height: 80%;
-        padding: 0px 0px 5px;
-    }
-
+/* gallery page */
+#g-title {
+    position: absolute;
+    left: 32%;
+    top: 15%;
+}
+#photo-gallery {
+    width: 80%;
+    height:372%;
+    column-count: 2;
+    column-gap: 0;
+    position: absolute;
+    top:25%;
+    bottom: -30%;
+    right: 0%;
+    left: 10%;
+    background-color: lightgreen;
+}
+#photo-gallery img{
+    height: auto;
+    width: 100%;
+}
 }
