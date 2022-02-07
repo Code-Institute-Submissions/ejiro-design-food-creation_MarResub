@@ -267,7 +267,6 @@ footer {
     float: left;
     padding: 5px 10px;
     align-content: center;
-
 }
 
 #judges h1 {
@@ -432,22 +431,22 @@ footer {
 
 }
 
-@media screen and (max-width: 998px){
-        #judges {
+@media screen and (max-width: 998px) {
+    #judges {
         position: absolute;
         left: 21%;
     }
 
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 960px) {
     #judges {
         position: absolute;
         left: 20%;
     }
 }
 
-@media screen and (max-width: 922px){
+@media screen and (max-width: 922px) {
     #judges {
         position: absolute;
         left: 19%;
@@ -510,59 +509,177 @@ footer {
         left: 10%;
     }
 }
+
 @media screen and (max-width: 714px) {
     #judges {
         position: absolute;
         left: 9%;
         bottom: 40%;
     }
-    #logo{
+
+    #logo {
         position: absolute;
         margin-left: 32%;
     }
+
     #menu {
         position: absolute;
         left: 9%;
         top: 5%;
-        margin-left:120px;
+        margin-left: 120px;
     }
 
-/* gallery page */
-#g-title {
-    position: absolute;
-    left: 32%;
-    top: 15%;
+    /* gallery page */
+    #g-title {
+        position: absolute;
+        left: 32%;
+        top: 15%;
+    }
+
+    #photo-gallery {
+        width: 80%;
+        height: 372%;
+        column-count: 2;
+        column-gap: 0;
+        position: absolute;
+        top: 25%;
+        bottom: -30%;
+        right: 0%;
+        left: 10%;
+        background-color: lightgreen;
+    }
+
+    #photo-gallery img {
+        height: auto;
+        width: 100%;
+    }
+
+    .dish-photo {
+        margin-top: 15%;
+        height: 670px;
+        overflow: scroll;
+
+    }
+
+    div .main-title {
+        position: absolute;
+        top: 30%;
+        left: 20px;
+    }
+
+    .enter-button {
+        position: absolute;
+        top: 45%;
+        left: 70px;
+    }
 }
-#photo-gallery {
-    width: 80%;
-    height:372%;
-    column-count: 2;
-    column-gap: 0;
-    position: absolute;
-    top:25%;
-    bottom: -30%;
-    right: 0%;
-    left: 10%;
-    background-color: lightgreen;
+
+@media screen and (max-width:675px) {
+    #judges {
+        position: absolute;
+        left: 8%;
+    }
 }
-#photo-gallery img{
-    height: auto;
-    width: 100%;
-}
-.dish-photo {
-    margin-top: 15%;
-    height: 670px;overflow: scroll;
+
+@media screen and (max-width:654px) {
+    #judges {
+        position: absolute;
+        left: 17%;
+        width: 210px;
+        float: left;
+    }
+
+    #judges img {
+        position: relative;
+        left: 18%;
+    }
+
+    #judges h1 {
+        position: relative;
+        right: 10%;
+        font-size: 12;
+    }
+
+    #c-form {
+        position: absolute;
+        right:40%;
+        width: 230px;
+    }
+
+    #logo {
+        position: absolute;
+        margin-left: 35%;
+    }
 
 }
-div .main-title{
-    position:absolute;
-    top:30%;
-    left:20px;
+
+@media screen and (max-width:613px){
+    #judges {
+        position: absolute;
+        left: 15%;
+        width: 210px;
+        float: left;
+    }
+    #photo-gallery {
+        width: 80%;
+        height: 320%;
+    }
+
 }
-.enter-button{
-    position:absolute;
-    top:45%;
-    left:70px;
+@media screen and (max-width:585px){
+    #judges {
+        position: absolute;
+        left: 10%;
+    }
+    #c-form{
+        position: absolute;
+        left: 47%;
+    }
+
 }
+@media screen and (max-width:580px){
+    #logo {
+        position: absolute;
+        margin-left: 30%;
+    }
+    #menu{
+        position: absolute;
+        margin-left: 12%;
+    }
+    #judges {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        left: 25%;
+    }
+    #c-form{
+        width: 46%;
+        position: absolute;
+        top:60%;
+        left: 25%;
+    }
+    .tina-ada {
+        position: relative;
+        left:-13%;
+        padding: 0px 0px;
+        float: left;
+    }
+    #contact{
+        height:800px;
+    }
+}
+@media screen and (max-width:562px){
+    #judges {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        left: 25%;
+    }
+    #c-form{
+        width: 46%;
+        position: absolute;
+        top:80%;
+        left: 25%;
+    }
 
 }
