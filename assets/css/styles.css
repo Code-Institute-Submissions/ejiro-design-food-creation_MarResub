@@ -256,18 +256,20 @@ footer {
     position: absolute;
     left: 125px;
     top: 100px;
+    float:left;
 }
 
 #judges img {
     height: auto;
     width: 49%;
-    float:block;
+    float:left;
    
 }
 .tina-ada{
     float:left;
-    padding: 0 10px;
+    padding: 5px 10px;
     align-content: center;
+    
 }
 
 #judges>h1 {
@@ -384,17 +386,58 @@ footer {
 }
 
 /* media queries */
+@media screen and (max-width: 1029px) {
+    #c-form {
+        height: auto;
+        width: 240px;
+    }
+    #form {
+        margin-top: -10%;
+    }
+    .radio-button>label{
+        line-height: 80%;
+        padding: 0px 0px 23px;
+    }
+
+}
+
+@media screen and (max-width: 1014px) {
+    #judges {
+        width:280px;
+        position: absolute;
+        left: 22%;
+    }
+
+    #judges img{
+        margin: 0;
+        position: relative;
+        left: 30%;
+    }
+
+    #judges h1{
+       margin-left: 25%;
+       margin-bottom:5% ;
+       margin-top: 5%;
+    }
+    #c-form {
+        height: auto;
+        width: 240px;
+        position:absolute;
+        left:50%
+    }
+
+}
+
 @media screen and (max-width: 800px) {
     .enter-button {
         margin: 7% 9% 0%;
     }
-
     #judges {
-        height: 377px;
         width:260px;
         position: absolute;
         right: 100%;
     }
+
     #judges img{
         margin: 0;
         position: relative;
@@ -410,7 +453,6 @@ footer {
     #c-form {
         height: auto;
         width: 260px;
-        left: 50%
     }
 
     #form {
