@@ -272,9 +272,10 @@ footer {
     
 }
 
-#judges>h1 {
+.h-judges{
+    line-height: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     color: #312d2d;
     margin-top: 20px;
@@ -431,12 +432,54 @@ footer {
 @media screen and (max-width: 800px) {
     .enter-button {
         margin: 7% 9% 0%;
+<<<<<<< HEAD
     }
     #judges {
         width:260px;
         position: absolute;
         right: 100%;
     }
+=======
+}
+#contact{
+    margin-right: 30px;
+    background-color: #000000;
+}
+#judges {
+    height: 400px;
+    width: 260px;
+    position: absolute;
+    right: 20%;
+}
+.h-judges{
+    line-height: 20px;
+    padding:5px;
+}
+#judges img{
+    height:80px;
+    width: auto;
+
+
+}
+
+#c-form{
+    height: 360px;
+    width: 260px;
+    left: 50%;
+    
+}
+#form{
+    margin-top: -10%;
+    
+}
+
+.radio-button .terms {
+    line-height: 150px;
+    color: brown;
+}
+ 
+}
+>>>>>>> merge
 
     #judges img{
         margin: 0;
