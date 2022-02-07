@@ -637,7 +637,7 @@ footer {
     }
 
 }
-@media screen and (max-width:580px){
+@media screen and (max-width:579px){
     #logo {
         position: absolute;
         margin-left: 30%;
@@ -669,17 +669,81 @@ footer {
     }
 }
 @media screen and (max-width:562px){
-    #judges {
-        width: 30%;
-        height: auto;
+    #logo {
         position: absolute;
-        left: 25%;
+        margin-left: 20%;
+    }
+    #menu{
+        position: absolute;
+        margin-left: 6%;
     }
     #c-form{
-        width: 46%;
         position: absolute;
+        left: 20%;
+    }
+    #judges {
+        position: absolute;
+        left: 20%;
+    }
+
+}
+
+@media screen and (max-width:556px){
+    #logo {
+        position: absolute;
+        margin-left: 20%;
+    }
+    #menu{
+        position: absolute;
+        margin-left: 4%;
+    }
+    #c-form{
+        position: absolute;
+        left: 18%;
+    }
+    #judges {
+        position: absolute;
+        left: 18%;
+    }
+    #judges img {
+        height: 83px;
+        width: 130px;
+    }
+
+}
+@media screen and (max-width:519px){
+    #judges {
+        height: 62%;
+        position: absolute;
+        left: 18%;
+    }
+    #judges img{
+        margin:0 50px 0;
+    }
+  
+    #c-form{
+        position: absolute;
+        left: 18%;
         top:80%;
-        left: 25%;
+    }
+    #contact{
+        height:950px;
+    }
+    
+}
+@media screen and (max-width:465px){
+    #logo {
+        position: absolute;
+        margin-left: 15%;
+    }
+    #menu{
+        position: absolute;
+        margin:1% 1% 0%;
+    }
+    #c-form h1{
+    text-align: center;
+    line-height: 15px;
+    padding: 5px 30px 25px 0;
     }
 
 }
