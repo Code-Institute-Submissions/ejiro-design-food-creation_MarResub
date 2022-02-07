@@ -256,32 +256,33 @@ footer {
     position: absolute;
     left: 125px;
     top: 100px;
-    float:left;
+    float: left;
 }
 
 #judges img {
-    height: auto;
-    width: 49%;
-    float:left;
-   
-}
-.tina-ada{
-    float:left;
-    padding: 5px 10px;
-    align-content: center;
-    
+    height: 144px;
+    width: 244px;
+    float: left;
+
 }
 
-.h-judges{
+.tina-ada {
+    float: left;
+    padding: 5px 10px;
+    align-content: center;
+
+}
+
+#judges h1 {
     line-height: 20px;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     color: #312d2d;
     margin-top: 20px;
     margin-bottom: 0%;
     float: left;
-    padding:0px 10px 0;
+    padding: 0px 10px 0;
 }
 
 #c-form {
@@ -392,10 +393,12 @@ footer {
         height: auto;
         width: 240px;
     }
+
     #form {
         margin-top: -10%;
     }
-    .radio-button>label{
+
+    .radio-button>label {
         line-height: 80%;
         padding: 0px 0px 23px;
     }
@@ -404,27 +407,28 @@ footer {
 
 @media screen and (max-width: 1014px) {
     #judges {
-        width:280px;
+        width: 280px;
         position: absolute;
         left: 22%;
     }
 
-    #judges img{
+    #judges img {
         margin: 0;
         position: relative;
         left: 30%;
     }
 
-    #judges h1{
-       margin-left: 25%;
-       margin-bottom:5% ;
-       margin-top: 5%;
+    #judges h1 {
+        margin-left: 25%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
+
     #c-form {
         height: auto;
         width: 240px;
-        position:absolute;
-        left:50%
+        position: absolute;
+        left: 50%
     }
 
 }
@@ -433,22 +437,25 @@ footer {
     .enter-button {
         margin: 7% 9% 0%;
     }
+
     #judges {
-        width:260px;
+        width: 260px;
         position: absolute;
         right: 100%;
     }
 
-    #judges img{
+    #judges img {
         margin: 0;
         position: relative;
         left: 30%;
     }
 
-    #judges h1{
-       margin-left: 25%;
-       margin-bottom:5% ;
-       margin-top: 5%;
+    #judges,
+    h1 {
+        font-size: 7px;
+        margin-left: 25%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
 
     #c-form {
@@ -460,7 +467,7 @@ footer {
         margin-top: -10%;
     }
 
-    .radio-button>label{
+    .radio-button>label {
         line-height: 80%;
         padding: 0px 0px 5px;
     }
