@@ -390,6 +390,13 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 1029px) {
+    .judges{
+        max-width: 80;
+    }
+    .judges img{
+        display: block;
+        height: 190px;
+    }
     #c-form {
         height: auto;
         width: 240px;
