@@ -245,8 +245,7 @@ footer {
 
 /* Contact page */
 #contact {
-    clear:both;
-    column-count: 2;
+    clear: both;
     width: 510px;
     height: 400px;
     border: 1px solid black;
@@ -254,28 +253,39 @@ footer {
     left: 125px;
     top: 100px;
     box-sizing: border-box;
+    line-height: 0;
 }
 
- .images-judges img{
-    height: 95%;
-    width: 95%;
-    padding: 5px 5px;
+.images-judges{
+    position: absolute;
+    top:15%;
+    column-count: 2;
+    column-gap: 2;
+}
+.images-judges img {
+    clear: both;
+    max-width: 95%;
+    height: auto;
+    padding: 0px 4px;
     float: left;
-} 
-
-.images-judges img:nth-child(3){
-    margin-top: 10%;
 }
 
-#judges h1 {
+/* .images-judges { */
+    /* margin-top: 50%; */
+/* } */
+
+#contact h1 {
+    clear:both;
     line-height: 20px;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
     color: #312d2d;
     margin: 20px 20px;
+    margin-bottom: 20px;
     float: left;
-    padding: 0px 10px 0;
+    padding-left: 5px;
+
 }
 
 #c-form {
@@ -395,9 +405,39 @@ footer {
         line-height: 80%;
         padding: 0px 0px 23px;
     }
-    #judges{
-        column-count:1;
+
+    #contact {
+        column-count: 2;
     }
-  
+}
+
+@media screen and (max-width: 1014px) {
+    #contact {
+        width: 350px;
+        position: absolute;
+        left: 22%;
+    }
+
+    #images-judges img {
+        height: 83px;
+        width: 135px;
+    }
+
+    .images-judges img:nth-child(3) {
+        margin-top: 50%;
+    }
+
+    .entry-form {
+        position: absolute;
+        left: 95%;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    #contact {
+        width: 350px;
+        position: absolute;
+        left: 21%;
+    }
 
 }
