@@ -256,23 +256,21 @@ footer {
     line-height: 0;
 }
 
-.images-judges{
+.judges {
     position: absolute;
-    top:15%;
-    column-count: 2;
-    column-gap: 2;
-}
-.images-judges img {
-    clear: both;
-    max-width: 95%;
-    height: auto;
-    padding: 0px 4px;
-    float: left;
+    top: 15%;
+    margin: auto 0;
+    width: 100%;
 }
 
-/* .images-judges { */
-    /* margin-top: 50%; */
-/* } */
+.judges img {
+    height: 170px;
+    float: left;
+    overflow: hidden;
+    margin: auto 0;
+    padding: 0;
+    max-width: 50%;
+}
 
 #contact h1 {
     clear:both;
@@ -404,40 +402,6 @@ footer {
     .radio-button>label {
         line-height: 80%;
         padding: 0px 0px 23px;
-    }
-
-    #contact {
-        column-count: 2;
-    }
-}
-
-@media screen and (max-width: 1014px) {
-    #contact {
-        width: 350px;
-        position: absolute;
-        left: 22%;
-    }
-
-    #images-judges img {
-        height: 83px;
-        width: 135px;
-    }
-
-    .images-judges img:nth-child(3) {
-        margin-top: 50%;
-    }
-
-    .entry-form {
-        position: absolute;
-        left: 95%;
-    }
-}
-
-@media screen and (max-width: 998px) {
-    #contact {
-        width: 350px;
-        position: absolute;
-        left: 21%;
     }
 
 }
