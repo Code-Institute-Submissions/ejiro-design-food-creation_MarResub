@@ -260,16 +260,21 @@ footer {
     position: absolute;
     top: 15%;
     margin: auto 0;
-    width: 100%;
+    width: 510px;
+    overflow: hidden;
+    height: 340px;
+   
 }
 
 .judges img {
-    height: 170px;
+    width:250px;
+    height:250px;
     float: left;
     overflow: hidden;
     margin: auto 0;
     padding: 0;
-    max-width: 50%;
+    max-width: 100%;
+    block-size:auto;
 }
 
 #contact h1 {
@@ -390,13 +395,11 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 1029px) {
-    .judges{
-        max-width: 80;
-    }
-    .judges img{
+    .main{
+        width: 801px;
         display: block;
-        height: 190px;
     }
+
     #c-form {
         height: auto;
         width: 240px;
