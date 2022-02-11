@@ -257,19 +257,20 @@ footer {
 }
 
 .judges {
-    position: absolute;
-    top: 15%;
+    /* position: absolute;
+    top: 15%; */
     margin: auto 0;
     width: 510px;
     overflow: hidden;
-    height: 340px;
+    /* height: 340px; */
+    float: inline-end;
    
 }
 
 .judges img {
-    width:250px;
-    height:250px;
-    float: left;
+    width:49%;
+    height:auto;
+    float: inline-end;
     overflow: hidden;
     margin: auto 0;
     padding: 0;
