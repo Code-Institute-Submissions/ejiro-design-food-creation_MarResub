@@ -246,19 +246,20 @@ footer {
 /* Contact page */
 
 .main{
-    display: flex;
     clear: both;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    background-color: #767c6b;
+    min-height: 100vh;
 }
 
-.main div{
-    align-items: center;
-    margin: 40px;
-    width: 100%;
-}
 .contact{
     border: solid 1px;
+    max-width: 45%;
+    margin: 0 auto;
 }
 
 .contact h1 {
@@ -266,18 +267,22 @@ footer {
     font-size: 15px;
     font-weight: bold;
 }
-
-.contact .judges{
-    width: 480px;
+.judges {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .judges img{
-    width:49%;
+    width:50%;
+    object-fit: cover;
+    object-position: left;
     overflow: hidden;
 }
 
 .c-form{
-    border: solid 1px;
+    min-width: 40%;
 }
 
 .c-form h1 {
@@ -371,8 +376,7 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 1029px) {
-    .main div{
-       
-    }
+    
+
 }
    
