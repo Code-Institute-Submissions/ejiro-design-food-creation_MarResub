@@ -247,28 +247,30 @@ footer {
 .main{
     display: flex;
     clear: both;
-}
-.contact {
-    flex:1;
-    width: 510px;
-    border: 1px solid black;
-    /* position: absolute; */
-    /* left: 125px; */
-    /* top: 100px; */
-    box-sizing: border-box;
-    background-color: aqua;
-    /* line-height: 0; */ */
+    align-items: center;
+    justify-content: center;
+    background: darkmagenta;
 }
 
-.contact :first-child {
-    margin-right: 20px;
-    width: 510px;
-    overflow: hidden;
-    float: inline-end;
-    width:49%;
-    height:auto;
-    background-color: brown;
+.main div{
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    background-color: #767c6b;
+
 }
+
+/* .contact {
+    width: 510px;
+}
+
+.c-form {
+    width: 510px;
+    margin:auto;
+
+ 
+    
+} */
 
 
 
