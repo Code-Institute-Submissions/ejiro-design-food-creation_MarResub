@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -244,35 +244,104 @@ footer {
 }
 
 /* Contact page */
+
 .main{
     display: flex;
     clear: both;
     align-items: center;
     justify-content: center;
-    background: darkmagenta;
 }
 
 .main div{
     align-items: center;
-    margin: 20px;
+    margin: 40px;
     width: 100%;
+}
+.contact{
+    border: solid 1px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact .judges{
+    width: 480px;
+}
+
+.judges img{
+    width:49%;
+    overflow: hidden;
+}
+
+.c-form{
+    border: solid 1px;
+}
+
+.c-form h1 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#form{
+    width: 480px;
+}
+
+#form label{
+    padding: 20px 0;
+}
+
+#form ul {
+    padding: 0px 5px 0 0;
+}
+
+#form li {
+    list-style: none;
+    padding: 0 0 -2px;
+    font-size: 14px;
+}
+
+
+#form input {
+    border: 1px solid #c9d3dd;
+    padding: 20px 20px 0 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+#form textarea {
+    border: 1px solid #c9d3dd;
+    padding: 10px 10px 0 0;
+}
+
+#form .terms>label {
+    font: 40px;
+} 
+
+.radio-button .terms {
+    width: 12px;
+    height: 12px;
+    font: 10px;
+}
+ #form label {
+    display: block;
+    height: 10px;
+    text-align: left;
+}
+.submit-b button {
+    border-radius: 5px;
+    padding: 5px;
+    width: 180px;
+    height: 40px;
     background-color: #767c6b;
-
+    color: #c9d3dd;
+    font-size: inherit;
+    font-family: inherit;
 }
-
-/* .contact {
-    width: 510px;
-}
-
-.c-form {
-    width: 510px;
-    margin:auto;
-
- 
-    
-} */
-
-
 
 .success {
     padding: 0;
@@ -302,4 +371,8 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 1029px) {
+    .main div{
+       
+    }
+}
    
