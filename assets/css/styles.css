@@ -258,14 +258,15 @@ footer {
 
 .contact{
     border: solid 1px;
-    max-width: 45%;
-    margin: 0 auto;
+    max-width: 40%;
+    margin-right: 20px;
 }
 
 .contact h1 {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+    padding: 10px 0;
 }
 .judges {
     width: 100%;
@@ -283,20 +284,24 @@ footer {
 
 .c-form{
     min-width: 40%;
+    border: solid 1px;
 }
 
 .c-form h1 {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+    width: 100%;
 }
 
 #form{
-    width: 480px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #form label{
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 #form ul {
@@ -376,7 +381,10 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 1029px) {
-    
+    #form label{
+        padding: 16px 0;
+    }
 
 }
-   
+
+@media screen and (max-width: 764px) 
