@@ -283,7 +283,7 @@ footer {
 }
 
 .c-form{
-    min-width: 40%;
+    max-width: 40%;
     border: solid 1px;
 }
 
@@ -326,6 +326,8 @@ footer {
 #form textarea {
     border: 1px solid #c9d3dd;
     padding: 10px 10px 0 0;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 #form .terms>label {
@@ -385,6 +387,16 @@ footer {
         padding: 16px 0;
     }
 
+    #form li {
+        padding: 0 0 0 10px;
+    }
+
+.submit-b {
+    padding: 30px 0;
 }
 
-@media screen and (max-width: 764px) 
+}
+
+@media screen and (max-width: 764px) {
+
+}
