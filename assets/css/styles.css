@@ -285,6 +285,7 @@ footer {
 .c-form{
     max-width: 40%;
     border: solid 1px;
+    width: 100%;
 }
 
 .c-form h1 {
@@ -298,10 +299,12 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding:5px;
 }
 
 #form label{
-    padding: 25px 0;
+    padding: 21px 0;
+    width: 100%;
 }
 
 #form ul {
@@ -310,17 +313,18 @@ footer {
 
 #form li {
     list-style: none;
-    padding: 0 0 -2px;
     font-size: 14px;
+    width: 100%;
 }
 
 
 #form input {
     border: 1px solid #c9d3dd;
-    padding: 20px 20px 0 0;
+    padding: 10px;
     border-radius: 5px;
     font-size: 14px;
     font-family: inherit;
+    
 }
 
 #form textarea {
@@ -330,15 +334,12 @@ footer {
     font-size: 14px;
 }
 
-#form .terms>label {
-    font: 40px;
+.radio-button label{
+    line-height: 15px;
+    width: 70%;
+    text-align: left;
 } 
 
-.radio-button .terms {
-    width: 12px;
-    height: 12px;
-    font: 10px;
-}
  #form label {
     display: block;
     height: 10px;
@@ -346,7 +347,7 @@ footer {
 }
 .submit-b button {
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 5px;
     width: 180px;
     height: 40px;
     background-color: #767c6b;
