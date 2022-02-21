@@ -326,12 +326,20 @@ footer {
     font-family: inherit;
     
 }
+#form .fullname {
+    width:100%;
+}
+
+#form .email{
+    width:100%
+}
 
 #form textarea {
     border: 1px solid #c9d3dd;
     padding: 10px 10px 0 0;
     border-radius: 5px;
     font-size: 14px;
+    width:100%;
 }
 
 .radio-button label{
