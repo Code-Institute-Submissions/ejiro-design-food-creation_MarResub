@@ -25,7 +25,8 @@ h1 {
     font-size: 200%;
     font-weight: 900;
     line-height: 75px;
-    margin-left: 60px;
+    margin: 0 auto;
+    padding-left: 60px;
     color: #000000;
 }
 
@@ -408,5 +409,14 @@ footer {
 @media screen and (max-width: 654px) {
     #menu li {
         margin: 30px 10px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #logo{
+        margin:0 20%;
+    }
+    #menu {
+        margin: 0 30%;
     }
 }
