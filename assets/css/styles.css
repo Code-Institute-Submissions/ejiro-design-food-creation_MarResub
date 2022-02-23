@@ -324,6 +324,7 @@ footer {
     border-radius: 5px;
     font-size: 14px;
     font-family: inherit;
+    max-width: fit-content;
     
 }
 
@@ -398,6 +399,14 @@ footer {
 
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 714px) {
+    #menu li {
+        margin: 20px;
+    }
+}
 
+@media screen and (max-width: 654px) {
+    #menu li {
+        margin: 30px 10px;
+    }
 }
