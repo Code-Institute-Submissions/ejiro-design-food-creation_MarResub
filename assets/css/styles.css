@@ -25,15 +25,15 @@ h1 {
     font-size: 200%;
     font-weight: 900;
     line-height: 75px;
-    margin: 0 auto;
-    padding-left: 60px;
+    margin-left: auto;
+    padding:0 30px;
     color: #000000;
 }
 
 #menu {
     font-size: 95%;
     color: #181d22;
-    margin-right: 60px;
+    margin-right: auto;
 }
 
 #menu li {
@@ -326,14 +326,14 @@ footer {
     font-size: 16px;
     font-family: inherit;
     max-width: fit-content;
-    
 }
+
 #form .fullname {
     width:100%;
 }
 
 #form .email{
-    width:100%
+    width:100%;
 }
 
 #form textarea {
@@ -401,44 +401,19 @@ footer {
 
 }
 
-@media screen and (max-width: 714px) {
-<<<<<<< HEAD
+@media screen and (max-width: 674px) {
     #menu li {
-        margin: 20px;
+        margin: 30px 7px;
     }
 }
 
-@media screen and (max-width: 654px) {
-    #menu li {
-        margin: 30px 10px;
+@media screen and (max-width: 536px){
+    #logo{
+        padding:0 25%;
     }
-}
 
-@media screen and (max-width: 600px){
-    #logo{
-        margin:0 20%;
-    }
-    #menu {
-        margin: 0 30%;
-    }
-=======
-    #logo{
-        text-align: center;
-        
-    }
     #menu{
-        text-align: center;
-        line-height: 50px;
-
+       margin-right: 170px;
     }
-    #menu li{
-        margin:15px;
-
-    }
-
-}
-
-@media screen and (max-width: 624px) {
-    
->>>>>>> 00c919d850cf2bace0fb94892c64d52c68575b1a
+   
 }
