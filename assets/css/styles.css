@@ -214,20 +214,22 @@ footer {
 }
 
 #photo-gallery {
-    width: 100%;
-    clear: both;
+    background-color: #d7d8d4;
+    max-width: 100%;
+    clear:both;
+    overflow: hidden;
     line-height: 0%;
     column-count: 5;
     column-gap: 0;
     text-align: center;
-    margin:auto auto;
-    /* display: inline-block; */
+    display: block;
     border-radius: 10px;
     float:left; 
-    /* position: absolute;
-    bottom: -17%;
+    width:1000px;
+    position: absolute;
+    bottom: -48%;
     right: 0%;
-    left: 10%; */
+    left: 14%;
 }
 
 #photo-gallery img {
@@ -236,8 +238,8 @@ footer {
 }
 
 #photo-gallery figcaption {
+    line-height: 15px;
     font-size: 14px;
-    font-weight: 800;
     text-align: center;
     font-family: "Source Code Pro", "Poppins";
     color: #312d2d;
@@ -395,6 +397,9 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 1029px) {
+    #photo-gallery {
+        column-count: 3;
+    }
 
 .submit-b {
     padding: 30px 0;
@@ -418,5 +423,18 @@ footer {
       float:left;
       padding: 0 150px;
     }
-    #   
+    
+    #g-title {
+        position: absolute;
+        left: 25%;
+        top: 25%;
+    }
+    #photo-gallery {
+        column-count: 2;
+        width:1000px;
+        position: absolute;
+        bottom: -80%;
+        right: 0%;
+        left: 14%;
+    }
 }
