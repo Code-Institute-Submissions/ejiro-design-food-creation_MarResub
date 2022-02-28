@@ -214,24 +214,25 @@ footer {
 }
 
 #photo-gallery {
-    width: 80%;
+    width: 100%;
     clear: both;
     line-height: 0%;
     column-count: 5;
     column-gap: 0;
     text-align: center;
-    display: inline-block;
+    margin:auto auto;
+    /* display: inline-block; */
     border-radius: 10px;
-    position: absolute;
+    float:left; 
+    /* position: absolute;
     bottom: -17%;
     right: 0%;
-    left: 10%;
+    left: 10%; */
 }
 
 #photo-gallery img {
-    height: 280px;
+    height:auto;
     width: 100%;
-    float: inline-end;
 }
 
 #photo-gallery figcaption {
@@ -413,7 +414,9 @@ footer {
     }
 
     #menu{
-       margin-right: 170px;
+      text-align: center;
+      float:left;
+      padding: 0 150px;
     }
-   
+    #   
 }
