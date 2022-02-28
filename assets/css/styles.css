@@ -77,9 +77,10 @@ h1 {
 }
 
 div .main-title {
+    float:left;
     position: absolute;
-    left: 300px;
-    top: 100px;
+    left: 20%;
+    top: 18%;
 }
 
 .main-title,
@@ -111,7 +112,7 @@ div .main-title {
     margin: 0 auto;
     padding-top: 1%;
     position: absolute;
-    top: 200px;
+    top: 210px;
     left: 400px;
     font-weight: bold;
 }
@@ -188,7 +189,7 @@ footer {
 
 /* gallery page */
 #gallery {
-    height: 780px;
+    height:900px;
     width: 80%;
 }
 
@@ -227,9 +228,9 @@ footer {
     float:left; 
     width:1000px;
     position: absolute;
-    bottom: -48%;
+    bottom: -40%;
     right: 0%;
-    left: 14%;
+    left: 12%;
 }
 
 #photo-gallery img {
@@ -307,12 +308,12 @@ footer {
 }
 
 #form label{
-    padding: 22px 0;
+    padding: 19px 0;
     width: 100%;
 }
 
 #form ul {
-    padding: 0px 5px 0 0;
+    padding: 0px 2px 0 0;
 }
 
 #form li {
@@ -397,8 +398,19 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 1029px) {
+
+    #gallery {
+        height:700px;
+        width: 80%;
+    }
+
     #photo-gallery {
-        column-count: 3;
+        width: 74%;
+        column-count: 5;
+        position: absolute;
+        bottom: -10%;
+        right: 0%;
+        left: 14%;
     }
 
 .submit-b {
@@ -407,10 +419,8 @@ footer {
 
 }
 
-@media screen and (max-width: 674px) {
-    #menu li {
-        margin: 30px 7px;
-    }
+@media screen and (max-width: 654px){
+
 }
 
 @media screen and (max-width: 536px){
@@ -421,19 +431,22 @@ footer {
     #menu{
       text-align: center;
       float:left;
-      padding: 0 150px;
+      margin-left: 20%;
+    }
+
+    #menu li {
+        margin: 5px;
     }
     
     #g-title {
         position: absolute;
         left: 25%;
-        top: 25%;
+        top: 30%;
     }
     #photo-gallery {
         column-count: 2;
-        width:1000px;
         position: absolute;
-        bottom: -80%;
+        bottom: -210%;
         right: 0%;
         left: 14%;
     }
