@@ -39,7 +39,8 @@ h1 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 30px;
+    margin-right: 20px;
+    line-height: 75px;
 }
 
 #menu a {
@@ -189,14 +190,12 @@ footer {
 
 /* gallery page */
 #gallery {
-    height:900px;
+    clear:both;
     width: 80%;
 }
 
 #g-title {
-    position: absolute;
-    left: 40%;
-    top: 13%;
+   margin-bottom: 10px;
 }
 
 #g-title>h1 {
@@ -217,7 +216,6 @@ footer {
 #photo-gallery {
     background-color: #d7d8d4;
     max-width: 100%;
-    clear:both;
     overflow: hidden;
     line-height: 0%;
     column-count: 5;
@@ -228,7 +226,7 @@ footer {
     float:left; 
     width:1000px;
     position: absolute;
-    bottom: -40%;
+    /* bottom: -40%; */
     right: 0%;
     left: 12%;
 }
@@ -400,17 +398,16 @@ footer {
 @media screen and (max-width: 1029px) {
 
     #gallery {
-        height:700px;
         width: 80%;
     }
 
     #photo-gallery {
         width: 74%;
-        column-count: 5;
-        position: absolute;
-        bottom: -10%;
+        column-count: 2;
+        /* position: absolute;
+        bottom: -410%;
         right: 0%;
-        left: 14%;
+        left: 14%; */
     }
 
 .submit-b {
@@ -419,35 +416,7 @@ footer {
 
 }
 
-@media screen and (max-width: 654px){
-
+@media screen and (max-width: 534px){
 }
 
-@media screen and (max-width: 536px){
-    #logo{
-        padding:0 25%;
-    }
 
-    #menu{
-      text-align: center;
-      float:left;
-      margin-left: 20%;
-    }
-
-    #menu li {
-        margin: 5px;
-    }
-    
-    #g-title {
-        position: absolute;
-        left: 25%;
-        top: 30%;
-    }
-    #photo-gallery {
-        column-count: 2;
-        position: absolute;
-        bottom: -210%;
-        right: 0%;
-        left: 14%;
-    }
-}
