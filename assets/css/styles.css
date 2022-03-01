@@ -80,7 +80,7 @@ h1 {
 div .main-title {
     float:left;
     position: absolute;
-    left: 20%;
+    right: 50%;
     top: 18%;
 }
 
@@ -404,10 +404,6 @@ footer {
     #photo-gallery {
         width: 74%;
         column-count: 2;
-        /* position: absolute;
-        bottom: -410%;
-        right: 0%;
-        left: 14%; */
     }
 
 .submit-b {
