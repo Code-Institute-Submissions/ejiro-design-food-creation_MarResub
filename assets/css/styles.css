@@ -224,7 +224,6 @@ footer {
     float:left; 
     width:1000px;
     position: absolute;
-    /* bottom: -40%; */
     right: 0%;
     left: 12%;
 }
@@ -253,7 +252,6 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #767c6b;
     min-height: 100vh;
 }
 
@@ -429,19 +427,79 @@ footer {
 }
 
 @media screen and (max-width: 534px){
-    header{
-        
+    .contact{
+        max-width: 60%;
+    }
+    .c-form{
+        max-width: 60%;
+    }
+    .heading{
+        margin-top: 10px;
     }
     #logo{
         line-height:40px;
         margin-top: 10px;
+        padding:0 120px;
     }
     #menu {
-        margin-right: 50%;
-        margin-top: 10%;
+        margin-right: 30%;
 }
 #menu li{
     line-height: 40px;
 
+}
+.main{
+    flex-direction: column;
+}
+.contact{
+    margin-right: 1px;
+}
+}
+
+@media screen and (max-width: 489px){
+    .main-title{
+        right: 15%;
+    }
+    #logo{
+        padding:0 95px;
+    }
+
+    #menu {
+        margin-right: 30%;
+        padding-left: 10%;
+}
+
+.about{
+    right:40px;
+}
+.food{
+    font-size: 40px;
+    text-align: left;
+}
+.competition{
+    line-height: 100%;
+    margin-top: -2%;
+    font-size: 24px;
+    text-align: left;
+}
+.enter-button{
+    left:23%;
+    top:30%;
+}
+}
+
+@media screen and (max-width: 439px){
+    #logo{
+        padding:0 70px;
+    }
+
+    #menu {
+        margin-right: 30%;
+}
+}
+
+@media screen and (max-width: 375px){
+    #menu {
+        margin-right: 20%;
 }
 }
