@@ -15,6 +15,7 @@ body {
 /* home page  */
 
 header {
+    float:left;
     width: 100%;
     padding: 0 3%;
 }
@@ -81,6 +82,7 @@ h1 {
 }
 
 .main-title {
+    width:50%;
     float: right;
     position: absolute;
     right: 40%;
@@ -458,9 +460,20 @@ footer {
     .competition{
         font-size: 15px;
     }
+
+    .enter-button{
+        height:30px;
+        width:100px;
+        font-size: 13px;
+    }
+    .main-title{
+        padding:0 5%;
+    }
 }
 
-@media screen and (max-width: 489px) {}
+@media screen and (max-width: 418px) {
+    
+}
 
 @media screen and (max-width: 439px) {
 
