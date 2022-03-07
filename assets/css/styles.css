@@ -64,12 +64,11 @@ h1 {
 
 #dish {
     overflow: hidden;
-    height: 670px;
+    /* height: 670px; */
     width: 100%;
 }
 
 .dish-photo {
-    height: 670px;
     width: 100%;
     background: url('../images/salmon.png') center center transparent;
     background-repeat: no-repeat;
@@ -104,17 +103,18 @@ h1 {
 }
 
 .enter-button {
-    float:right;
+    float:left;
     background-color: #181d22;
     text-align: center;
     color: white;
     height: 40px;
     width: 130px;
-    padding-top: 1%;
+    margin: 0;
+    /* padding-top: 1%;
     position: absolute;
     top: 36%;
     left:50%;
-    font-weight: bold;
+    font-weight: bold; */
 }
 
 .enter-button,
@@ -408,8 +408,7 @@ footer {
 @media screen and (max-width: 836px){
 
     .enter-button{
-        top: 48%;
-        left:10%;
+    
     }
 
 }
@@ -423,7 +422,7 @@ footer {
     }
 
     .enter-button{
-        top: 44%;
+        
     }
 }
 
@@ -477,8 +476,7 @@ footer {
     text-align: left;
 }
 .enter-button{
-    left:23%;
-    top:30%;
+    
 }
 }
 
