@@ -64,7 +64,6 @@ h1 {
 
 #dish {
     overflow: hidden;
-    /* height: 670px; */
     width: 100%;
 }
 
@@ -110,11 +109,11 @@ h1 {
     height: 40px;
     width: 130px;
     margin: 0;
-    /* padding-top: 1%;
-    position: absolute;
+    padding-top: 1%;
+    /* position: absolute;
     top: 36%;
-    left:50%;
-    font-weight: bold; */
+    left:50%; */
+    font-weight: bold;
 }
 
 .enter-button,
@@ -405,15 +404,7 @@ footer {
 
 }
 
-@media screen and (max-width: 836px){
-
-    .enter-button{
-    
-    }
-
-}
-
-@media screen and (max-width: 629px){
+@media screen and (max-width: 755px){
     .food{
         font-size: 60px;
     }
@@ -421,9 +412,6 @@ footer {
         font-size: 20px;
     }
 
-    .enter-button{
-        
-    }
 }
 
 @media screen and (max-width: 534px){
@@ -433,15 +421,16 @@ footer {
     .c-form{
         max-width: 60%;
     }
-    .heading{
-        margin-top: 10px;
+    header{
+        margin-left: 20%;
     }
 
     #menu {
-        margin-right: 30%;
+        margin-right: 35%;
 }
 #menu li{
-    line-height: 40px;
+    line-height: 10px;
+    padding:0 0 10%;
 
 }
 .main{
@@ -453,63 +442,29 @@ footer {
 }
 
 @media screen and (max-width: 489px){
-    .main-title{
-        right: 15%;
-    }
 
-    #menu {
-        margin-right: 30%;
-        padding-left: 10%;
-}
 
-.about{
-    right:40px;
-}
-.food{
-    font-size: 40px;
-    text-align: left;
-}
-.competition{
-    line-height: 100%;
-    margin-top: -2%;
-    font-size: 24px;
-    text-align: left;
-}
-.enter-button{
-    
-}
 }
 
 @media screen and (max-width: 439px){
 
-    #menu {
-        margin-right: 10%;
-        padding-left: 10%;
-}
-}
 
 @media screen and (max-width: 375px){
-    #menu {
-        margin-right: 20%;
-}
-}
+ 
 
 @media screen and (max-width: 309px){
-
+/* 
     #logo{
         font-size:180%;
     }
     #menu{
         font-size: 85%;
     }
-    #menu li{
-        line-height: 0;
-        padding:0 0 10%;
-    }
+
    .about{
         right: 20px;
     }
     .main-title{
         right:10%;
     }
-}
+} */
