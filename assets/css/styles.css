@@ -13,6 +13,13 @@ body {
 }
 
 /* home page  */
+
+header {
+    width: 100%;
+    padding: 0 3%;
+}
+
+
 h1 {
     font: "Source Code Pro", "Poppins";
     letter-spacing: normal;
@@ -25,15 +32,13 @@ h1 {
     font-size: 200%;
     font-weight: 900;
     line-height: 75px;
-    margin-left: auto;
-    padding:0 30px;
     color: #000000;
 }
 
 #menu {
     font-size: 95%;
     color: #181d22;
-    margin-right: auto;
+    line-height: 75%;
 }
 
 #menu li {
@@ -76,11 +81,11 @@ h1 {
 }
 
 .main-title {
-    float:right;
+    float: right;
     position: absolute;
     right: 40%;
-    top:20%;
-    padding-left: 10%;
+    top: 20%;
+    padding-left: 0 10%;
 }
 
 .food {
@@ -92,7 +97,7 @@ h1 {
     line-height: 100%;
 }
 
-.competition{
+.competition {
     font-size: 30px;
     color: white;
     font-family: inherit;
@@ -102,7 +107,7 @@ h1 {
 }
 
 .enter-button {
-    float:left;
+    float: left;
     background-color: #181d22;
     text-align: center;
     color: white;
@@ -110,9 +115,6 @@ h1 {
     width: 130px;
     margin: 0;
     padding-top: 1%;
-    /* position: absolute;
-    top: 36%;
-    left:50%; */
     font-weight: bold;
 }
 
@@ -188,12 +190,12 @@ footer {
 
 /* gallery page */
 #gallery {
-    clear:both;
+    clear: both;
     width: 80%;
 }
 
 #g-title {
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #g-title>h1 {
@@ -221,15 +223,15 @@ footer {
     text-align: center;
     display: block;
     border-radius: 10px;
-    float:left; 
-    width:1000px;
+    float: left;
+    width: 1000px;
     position: absolute;
     right: 0%;
     left: 12%;
 }
 
 #photo-gallery img {
-    height:auto;
+    height: auto;
     width: 100%;
 }
 
@@ -245,7 +247,7 @@ footer {
 
 /* Contact page */
 
-.main{
+.main {
     clear: both;
     display: flex;
     flex-direction: row;
@@ -255,7 +257,7 @@ footer {
     min-height: 100vh;
 }
 
-.contact{
+.contact {
     border: solid 1px;
     max-width: 40%;
     margin-right: 20px;
@@ -267,6 +269,7 @@ footer {
     font-weight: bold;
     padding: 10px 0;
 }
+
 .judges {
     width: 100%;
     display: flex;
@@ -274,14 +277,14 @@ footer {
     flex-wrap: wrap;
 }
 
-.judges img{
-    width:50%;
+.judges img {
+    width: 50%;
     object-fit: cover;
     object-position: left;
     overflow: hidden;
 }
 
-.c-form{
+.c-form {
     max-width: 40%;
     border: solid 1px;
     width: 100%;
@@ -294,14 +297,14 @@ footer {
     width: 100%;
 }
 
-#form{
+#form {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding:5px;
+    padding: 5px;
 }
 
-#form label{
+#form label {
     padding: 19px 0;
     width: 100%;
 }
@@ -327,11 +330,11 @@ footer {
 }
 
 #form .fullname {
-    width:100%;
+    width: 100%;
 }
 
-#form .email{
-    width:100%;
+#form .email {
+    width: 100%;
 }
 
 #form textarea {
@@ -339,20 +342,21 @@ footer {
     padding: 10px 10px 0 0;
     border-radius: 5px;
     font-size: 14px;
-    width:100%;
+    width: 100%;
 }
 
-.radio-button label{
+.radio-button label {
     line-height: 15px;
     width: 70%;
     text-align: left;
-} 
+}
 
- #form label {
+#form label {
     display: block;
     height: 10px;
     text-align: left;
 }
+
 .submit-b button {
     border-radius: 5px;
     padding: 5px 5px;
@@ -404,56 +408,68 @@ footer {
 
 }
 
-@media screen and (max-width: 755px){
-    .food{
+@media screen and (max-width: 755px) {
+    .food {
         font-size: 60px;
     }
-    .competition{
+
+    .competition {
         font-size: 20px;
     }
 
 }
 
-@media screen and (max-width: 534px){
-    .contact{
+@media screen and (max-width: 534px) {
+
+    .contact {
         max-width: 60%;
     }
-    .c-form{
+
+    .c-form {
         max-width: 60%;
     }
-    header{
+
+    header {
         margin-left: 20%;
+        width: 70%;
     }
 
     #menu {
-        margin-right: 35%;
+        margin:0 8%;
+    }
+
+    #menu li {
+        line-height: 10px;
+        padding: 0 0 10%;
+        float: left;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .contact {
+        margin-right: 1px;
+    }
+
+    .food{
+        font-size: 50px;
+    }
+    .competition{
+        font-size: 15px;
+    }
 }
-#menu li{
-    line-height: 10px;
-    padding:0 0 10%;
 
-}
-.main{
-    flex-direction: column;
-}
-.contact{
-    margin-right: 1px;
-}
-}
+@media screen and (max-width: 489px) {}
 
-@media screen and (max-width: 489px){
+@media screen and (max-width: 439px) {
 
 
-}
-
-@media screen and (max-width: 439px){
+    @media screen and (max-width: 375px) {
 
 
-@media screen and (max-width: 375px){
- 
-
-@media screen and (max-width: 309px){
-/* 
+        @media screen and (max-width: 309px) {
+            /* 
     #logo{
         font-size:180%;
     }
