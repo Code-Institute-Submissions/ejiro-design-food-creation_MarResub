@@ -20,7 +20,6 @@ header {
     padding: 0 3%;
 }
 
-
 h1 {
     font: "Source Code Pro", "Poppins";
     letter-spacing: normal;
@@ -75,7 +74,6 @@ h1 {
 }
 
 .dish-photo {
-    width: 100%;
     background: url('../images/salmon.png') center center transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +81,7 @@ h1 {
 }
 
 .main-title {
-    width:50%;
+    /* width:50%; */
     float: right;
     position: absolute;
     right: 40%;
@@ -136,10 +134,9 @@ a:hover {
     background-color: rgba(102, 92, 1, 0.349);
     float:right;
 
-    width: 250px;
-    height: auto;
+    width: 20%;
 
-    padding:10px 10px;
+    padding:1em;
     margin:-380px 40px;
 }
 
@@ -394,7 +391,7 @@ footer {
 }
 
 /* media queries */
-@media screen and (max-width: 1029px) {
+/* @media screen and (max-width: 1029px) {
 
     #gallery {
         width: 80%;
@@ -490,7 +487,7 @@ footer {
 
 
         @media screen and (max-width: 309px) {
-            /* 
+            
     #logo{
         font-size:180%;
     }
