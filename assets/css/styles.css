@@ -69,6 +69,7 @@ h1 {
 }
 
 #dish {
+    float:left;
     overflow: hidden;
     width: 100%;
 }
@@ -87,7 +88,7 @@ h1 {
     position: absolute;
     right: 40%;
     top: 20%;
-    padding-left: 0 10%;
+    padding-left: 10%;
 }
 
 .food {
@@ -105,7 +106,7 @@ h1 {
     font-family: inherit;
     text-align: center;
     line-height: 220%;
-    margin-top: -5%;
+    margin-top: -4%;
 }
 
 .enter-button {
@@ -133,17 +134,13 @@ a:hover {
 
 .about {
     background-color: rgba(102, 92, 1, 0.349);
-    position: absolute;
-    top: 60%;
-    right: 50px;
-    bottom: -300px;
+    float:right;
 
     width: 250px;
-    height: 150px;
+    height: auto;
 
-    padding-left: 10px;
-    padding-top: 10px;
-    margin-right: 30px;
+    padding:10px 10px;
+    margin:-380px 40px;
 }
 
 .about h4 {
@@ -466,16 +463,27 @@ footer {
         width:100px;
         font-size: 13px;
     }
-    .main-title{
-        padding:0 5%;
-    }
 }
 
 @media screen and (max-width: 418px) {
+    #menu {
+        margin:0 5%;
+    }
     
 }
 
-@media screen and (max-width: 439px) {
+@media screen and (max-width: 390px) {
+    #menu {
+        font-size: 85%;
+        margin:0 2%;
+    }
+    header {
+        margin-left: 13%;
+    }
+    #logo{
+        font-size: 170%;;
+    }
+}
 
 
     @media screen and (max-width: 375px) {
