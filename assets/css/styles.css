@@ -27,25 +27,25 @@ h1 {
     font-weight: lighter;
 }
 
-#logo {
-    float: left;
-    font-size: 200%;
-    font-weight: 900;
+#logo, #menu{
     line-height: 75px;
+}
+#logo {
+    float:left;
+    font-size: 250%;
+    font-weight: 900;
     color: #000000;
 }
 
 #menu {
-    font-size: 95%;
+    font-size: 110%;
     color: #181d22;
-    line-height: 75%;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-    line-height: 75px;
 }
 
 #menu a {
@@ -78,13 +78,13 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .main-title {
-    /* width:50%; */
-    float: right;
+    width:50%;
+    float: left;
     position: absolute;
-    right: 40%;
     top: 20%;
     padding-left: 10%;
 }
@@ -391,7 +391,7 @@ footer {
 }
 
 /* media queries */
-/* @media screen and (max-width: 1029px) {
+@media screen and (max-width: 1029px) {
 
     #gallery {
         width: 80%;
@@ -403,7 +403,7 @@ footer {
     }
 
 }
-
+/* 
 @media screen and (max-width: 755px) {
     .food {
         font-size: 60px;
@@ -501,4 +501,4 @@ footer {
     .main-title{
         right:10%;
     }
-} */
+} */ */
