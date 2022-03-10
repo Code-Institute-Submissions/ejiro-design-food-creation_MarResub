@@ -71,6 +71,7 @@ h1 {
     float:left;
     overflow: hidden;
     width: 100%;
+    position:relative;
 }
 
 .dish-photo {
@@ -82,10 +83,10 @@ h1 {
 }
 
 .main-title {
-    width:50%;
+    /* width:80%; */
     float: left;
     position: absolute;
-    top: 20%;
+    top: 10%;
     padding-left: 10%;
 }
 
@@ -132,15 +133,14 @@ a:hover {
 
 .about {
     background-color: rgba(102, 92, 1, 0.349);
-    float:right;
 
     width: 300px;
     height:170px;
 
     padding:10px;
     position:absolute;
-    bottom:80px;
-    right:100px;
+    bottom:200px;
+    right:10px;
 }
 
 .about h4 {
@@ -405,19 +405,25 @@ footer {
         column-count: 2;
     }
 
-}
-/* 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 599px) {
     .food {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .competition {
         font-size: 20px;
     }
+    #logo{
+        float:none;
+        margin:0 auto;
+    }
+
+    #menu li {
+       /* float: left; */
+    }
 
 }
-
+/* 
 @media screen and (max-width: 534px) {
 
     .contact {
@@ -504,4 +510,4 @@ footer {
     .main-title{
         right:10%;
     }
-} */ */
+} */ */ */
