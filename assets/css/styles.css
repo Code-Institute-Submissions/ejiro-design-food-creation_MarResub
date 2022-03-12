@@ -430,5 +430,31 @@ footer {
     #menu li{
         float:left;
     }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .contact {
+        margin-right: 1px;
+        max-width:60%
+    }
+
+    .c-form{
+        max-width: 60%;
+    }
+
+#form li {
+    font-size: 13px;
+}
+
+#form input{
+    font-size:13px;
+}
+
+.cform h1{
+    font-size: 13px;
+}
+
 }
 }
