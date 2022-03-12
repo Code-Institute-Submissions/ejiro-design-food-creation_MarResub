@@ -34,10 +34,14 @@
 
 ![home page](readme-files/Screenshot3.jpg)
 
+## Features future
+* An dditional link to display list of winners will be added in the future
 
+## Typography and Colour Scheme
+* The color used for the site basically black
 
-
-
+## Technology
+* Githpod was used to for the design
 
 ## Validator Testing
 ### HTML
@@ -70,6 +74,9 @@
 * clicked on pages on the side menu
 * navigate to source and clicked on main
 * the site link was published
+
+## Supported Screen and Browser
+* The site is supported by all screens and browser
 
 ## CREDIT
 ### Content
