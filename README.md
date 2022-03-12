@@ -71,7 +71,12 @@
 * The site is supported by all screens and browser
 
 ## CREDIT
-### Content
+* w3schools.com
+* stackoverflow.com
+* kevin powell
+* freeCodeCamp.org
+
+## Content
 * Icons in the footer was gotten from FONT AWESOME
 * website idea from SQUARESPACE
 * i was able to link success page with the help of CODEPEN.IO site
