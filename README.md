@@ -6,12 +6,12 @@
 * Its message is targeted at people of all race, color and age.
 
 ## User Stories
+![](readme-files/Screenshot.jpg)
 
 
 ## Planning Section
 * This section shows the wireframe of the site
 
-![Wireframe](assets/wireframes/Wireframesite.jpg)
 
 * The image below shows the finished work in a screenshot
 
