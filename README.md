@@ -45,23 +45,11 @@
 
 ## Validator Testing
 ### HTML
-* Nu Html Checker is use to test for errors 
-* 5 errors and 2warnings is found
-* End Tag error from line 53, column 5; to line 53, column 14
-* unclosed element (div) from From line 34, column 13; to line 34, column 31
-* From line 33, column 9; to line 33, column 32
-* Stray start tag (script) from line From line 77, column 1; to line 77, column 80
-* i got warning on using H1 element as a top level heading only
-* moved footer script to the body
+* Document checked and completed. No errors or warnings to show.
 
 ### CSS
-* list of errors found below using the (Jigsaw) validator
-* value error on font in line 17
-* value error on padding in line 80
-* value error on position in line 133
-* value error on padding and unit in line 349
-* value error on width and unit in line 418
-* add quoting to family name on line 10, 79, 133, 140 and 215
+* 1 error found below using the (Jigsaw) validator and was fixed
+* Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space. line 17
 
 ## Fixed bugs
 * all errors where fixed for css files using the (W3Cvalidator)
