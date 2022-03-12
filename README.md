@@ -48,12 +48,16 @@
 * Document checked and completed. No errors or warnings to show.
 
 ### CSS
-* 1 error found below using the (Jigsaw) validator and was fixed
-* Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space. line 17
+* 1 error found below using the (Jigsaw) validator and was fixed 
+* Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space. line 97
 
 ## Fixed bugs
 * all errors where fixed for css files using the (W3Cvalidator)
 * all errors where fixed for html files using the ( (Jigsaw validator)
+
+## Performance level
+* Screen performance preview 
+![](readme-files/Screen-performance.png)
 
 ## Deployment
 * Opened github repository
