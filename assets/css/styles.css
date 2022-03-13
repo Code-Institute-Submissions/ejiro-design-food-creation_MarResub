@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-    font: "Source Code Pro", "Poppins";
+    font-family: "Source Code Pro", "Poppins";
     letter-spacing: normal;
     color: #000000;
     font-weight: lighter;
