@@ -83,7 +83,7 @@
 
 ## Performance level
 * Screen performance preview 
-![](readme-files/Screen-performance.png)
+![](readme-files/screen-performance-level.png)
 
 ## Supported Screen and Browser
 * The site is supported by all screens and browser
