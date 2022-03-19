@@ -41,7 +41,7 @@
 * The color used for the site basically black
 
 ## Technology
-* Githpod 
+* Gitpod 
 * Github 
 
 ## Validator Testing
@@ -60,6 +60,9 @@
 
 *screenshot for Samsung galaxyA5 and 71
 ![](readme-files/samsung-galaxyA5 -and71.png)
+
+### Web Browser Testing
+* Google Chrome and Safari
 
 ### Deployment
 * Opened github repository
@@ -81,8 +84,6 @@
 ## Performance level
 * Screen performance preview 
 ![](readme-files/Screen-performance.png)
-
-
 
 ## Supported Screen and Browser
 * The site is supported by all screens and browser
