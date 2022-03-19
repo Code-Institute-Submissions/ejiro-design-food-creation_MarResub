@@ -300,7 +300,7 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 5px;
+    padding: 18px 5px;
 }
 
 #form label {
@@ -318,7 +318,6 @@ footer {
     width: 100%;
     line-height:2px;
 }
-
 
 #form input {
     border: 1px solid #c9d3dd;
@@ -355,6 +354,9 @@ footer {
     display: block;
     height: 10px;
     text-align: left;
+}
+.submit-b{
+padding-top: 20px;
 }
 
 .submit-b button {
@@ -406,6 +408,23 @@ footer {
         column-count: 2;
     }
 
+    #form li {
+        line-height: 30px;
+    }
+
+    #form{
+        padding: 10px 5px;
+    }
+    
+   #c-form .submit-b{
+        padding-bottom: 40px;
+    }
+    
+    .contact{
+        max-width: 60%;
+    }
+
+
     @media screen and (max-width: 642px) {
 
         header {
@@ -450,6 +469,8 @@ footer {
 
         #form li {
             font-size: 13px;
+            line-height: none;
+            padding: 0px 10px 0 0;
         }
 
         #form input {
