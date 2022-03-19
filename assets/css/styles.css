@@ -277,7 +277,8 @@ footer {
 }
 
 .judges img {
-    width: 50%;
+    max-width: 50%;
+    max-height: 100%;
     object-fit: cover;
     object-position: left;
     overflow: hidden;
@@ -419,11 +420,6 @@ padding-top: 20px;
    #c-form .submit-b{
         padding-bottom: 40px;
     }
-    
-    .contact{
-        max-width: 60%;
-    }
-
 
     @media screen and (max-width: 642px) {
 
@@ -448,6 +444,7 @@ padding-top: 20px;
         #menu {
             display: block;
             line-height: 75%;
+            float: left;
         }
 
         #menu li {

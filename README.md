@@ -41,31 +41,48 @@
 * The color used for the site basically black
 
 ## Technology
-* Githpod was used to for the design
+* Githpod 
+* Github 
 
 ## Validator Testing
 ### HTML
 * Document checked and completed. No errors or warnings to show.
 
-### CSS
-* 1 error found below using the (Jigsaw) validator and was fixed 
-* Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space. line 97
+## Testing
+* screeshot for ipad
+![](readme-files/ipad-air.png)
 
-## Fixed bugs
-* all errors where fixed for css files using the (W3Cvalidator)
-* all errors where fixed for html files using the ( (Jigsaw validator)
+* screenshot for iphone 12 pro
+![](readme-files/iphone-12-pro.png)
 
-## Performance level
-* Screen performance preview 
-![](readme-files/Screen-performance.png)
+*screenshot for next hub max
+![](readme-files/next-hub-max.png)
 
-## Deployment
+*screenshot for Samsung galaxyA5 and 71
+![](readme-files/samsung-galaxyA5 -and71.png)
+
+### Deployment
 * Opened github repository
 * opened food creation
 * clicked on setting
 * clicked on pages on the side menu
 * navigate to source and clicked on main
 * the site link was published
+
+### CSS
+* 1 error found below using the (Jigsaw) validator and was fixed in line 97
+
+## Fixed bugs
+* Navbar
+
+## Unfixed bugs
+* alignment between contact form and judges div could be fixed
+
+## Performance level
+* Screen performance preview 
+![](readme-files/Screen-performance.png)
+
+
 
 ## Supported Screen and Browser
 * The site is supported by all screens and browser
